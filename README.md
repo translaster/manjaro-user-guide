@@ -1,34 +1,34 @@
-## Introduction
+## Введение
 
-The Manjaro Linux Beginner's User Guide typeset in LaTeX (using LyX).
+Руководство пользователя Manjaro Linux для начинающих набрано в LaTeX (с использованием LyX).
 
-The style in use is [tufte-book](http://wiki.lyx.org/Layouts/Tufte-book). This provides a very professional layout with minimal fuss.
+Используемый стиль - [tufte-book](http://wiki.lyx.org/Layouts/Tufte-book). Это обеспечивает очень профессиональную верстку с минимальными затратами.
 
-## Download
+## Скачать
 
-Want a PDF instead of the source? Grab it on [OSDN.net](https://osdn.net/projects/manjaro/storage/).
+Хотите PDF вместо исходника? Возьмите его на [OSDN.net](https://osdn.net/projects/manjaro/storage/).
 
-## Installation
+## Установка
 
-To enable the tufte-book layout within LyX on Manjaro you will need to install the following packages:
+Чтобы включить макет tufte-book в LyX на Manjaro, вам нужно установить следующие пакеты:
 
     sudo pacman -S lyx texlive-latexextra texlive-pictures ttf-comfortaa ghostscript
 
-Installing LyX should pick up the base dependencies; tufte-book requires the extra libraries. Remember to reconfigure LyX after installing the new libraries!
+Установка LyX подхватит базовые зависимости; tufte-book требует дополнительных библиотек. Не забудьте переконфигурировать LyX после установки новых библиотек!
 
-## Cover art
+## Обложка
 
-Current cover art is created in Inkscape. LyX will neatly insert/append PDF files - to make things easy cover art should therefore be exported as a PDF document.
+Текущие обложки создаются в Inkscape. LyX аккуратно вставляет/дополняет PDF-файлы - поэтому для упрощения работы обложки должны быть экспортированы как PDF-документ.
 
 ![Manjaro User Guide cover](https://raw.githubusercontent.com/manjaro/manjaro-user-guide/master/cover.png)
 
-## Generation 
+## Генерация
 
 Install ascii doc with:
 ```
 pacman -S asciidoc
 ```
-then 
+then
 ```
 gem install Ascii85 -v 1.1.0
 ```
@@ -49,9 +49,9 @@ or
 ```
 a2x -v -I manjaro-user-guide-2020-de-6.a2x
 ```
-## Generation(OLD)
+## Генерация (OLD)
 
-To generate the PDF from a command line rather than exporting from within LyX you can use the following:
+Чтобы сгенерировать PDF из командной строки, а не экспортировать из LyX, вы можете использовать следующее:
 
     lyx --export pdflatex manjaro-user-guide.lyx
     pdflatex manjaro-user-guide
@@ -60,18 +60,12 @@ To generate the PDF from a command line rather than exporting from within LyX yo
     pdflatex manjaro-user-guide
     gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -sOutputFile=manjaro-user-guide-printer.pdf manjaro-user-guide.pdf
 
-Yes, ```pdflatex``` does require multiple runs.
+Да ``pdflatex`` требует многократного запуска.
 
 
-## Contributors
+## Соавторы
 
-K. Günther(converted the latest english source code to asciidoc and make than a translation. Also, He added some enhancements and updates and made German version of the guide.)
-
-
-Feel free to develop a style for better looking output!
+K. Günther(перевел последний английский исходный код в asciidoc и сделал перевод. Также он добавил некоторые улучшения и обновления и сделал немецкую версию руководства).
 
 
-
-
-
-
+Не стесняйтесь разрабатывать стиль для более красивого вывода!
