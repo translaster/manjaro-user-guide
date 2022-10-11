@@ -288,7 +288,7 @@ Manjaro Development Team, The
 \end_layout
 
 \begin_layout Subsection*
-Core Team
+Основная команда
 \end_layout
 
 \begin_layout Description
@@ -408,7 +408,7 @@ Eren Developer
 \end_layout
 
 \begin_layout Subsection*
-Alumni
+Выпускники
 \end_layout
 
 \begin_layout Description
@@ -1191,7 +1191,7 @@ https://manjaro.org/download/#Community
 \end_layout
 
 \begin_layout Section
-Downloading a disc image
+Загрузка образа диска
 \end_layout
 
 \begin_layout Standard
@@ -1284,7 +1284,7 @@ https://forum.manjaro.org/tags/c/announcements/releases/100/preview
 \end_layout
 
 \begin_layout Chapter
-Checking a downloaded disc image for errors
+Проверка загруженного образа диска на ошибки
 \begin_inset Index idx
 status open
 
@@ -1459,11 +1459,11 @@ From this point on we'll assume you are using the file
 \end_layout
 
 \begin_layout Section
-Checking in Linux
+Проверка в Linux
 \end_layout
 
 \begin_layout Subsection
-Automatic verification
+Автоматическая проверка
 \end_layout
 
 \begin_layout Standard
@@ -1551,7 +1551,7 @@ If it failed, I'd need to download the image again...
 \end_layout
 
 \begin_layout Subsection
-Manual verification
+Ручная проверка
 \end_layout
 
 \begin_layout Standard
@@ -1618,7 +1618,7 @@ This command generates a hash code for the 64-bit Manjaro Xfce disc image
 \end_layout
 
 \begin_layout Section
-Checking in Microsoft Windows
+Проверка в Microsoft Windows
 \end_layout
 
 \begin_layout Standard
@@ -1755,7 +1755,7 @@ Hash
 \end_layout
 
 \begin_layout Chapter
-Writing a disc image
+Запись образа на диск
 \begin_inset Index idx
 status open
 
@@ -1840,7 +1840,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-Edition
+Редакция
 \end_layout
 
 \end_inset
@@ -1851,7 +1851,7 @@ Edition
 \begin_layout Plain Layout
 
 \series bold
-Filename
+Имя файла
 \end_layout
 
 \end_inset
@@ -1862,7 +1862,7 @@ Filename
 \begin_layout Plain Layout
 
 \series bold
-Size
+Размер
 \end_layout
 
 \end_inset
@@ -2082,7 +2082,7 @@ If your system will boot from a USB device, and you have one of sufficient
 \end_layout
 
 \begin_layout Section
-Burning to a CD/DVD
+Запись на CD/DVD
 \begin_inset Index idx
 status open
 
@@ -2092,7 +2092,7 @@ Burning to a CD/DVD
 
 \end_inset
 
- in Linux
+ в Linux
 \end_layout
 
 \begin_layout Standard
@@ -2130,7 +2130,7 @@ Xfce environments tend to include XFBurn.
 \end_layout
 
 \begin_layout Subsection
-Burning using Brasero
+Запись с использованием Brasero
 \end_layout
 
 \begin_layout Enumerate
@@ -2245,7 +2245,7 @@ Click the
 \end_layout
 
 \begin_layout Section
-Burning to a CD/DVD in Microsoft Windows
+Запись на CD/DVD в Microsoft Windows
 \end_layout
 
 \begin_layout Standard
@@ -2256,7 +2256,7 @@ Newer versions of Microsoft Windows (Windows 7 and later) include a disc
 \end_layout
 
 \begin_layout Subsection
-Burning using Windows Disc Image Burner
+Запись с использованием Windows Disc Image Burner
 \end_layout
 
 \begin_layout Standard
@@ -2335,7 +2335,7 @@ Windows Disc Image Burner in Microsoft Windows 10
 \end_layout
 
 \begin_layout Subsection
-Burning using a third-party application
+Запись с использованием сторонних приложений
 \end_layout
 
 \begin_layout Standard
@@ -2576,7 +2576,7 @@ ts of the applications themselves.
 \end_layout
 
 \begin_layout Section
-Writing to a USB flash drive
+Запись на USB-флешку
 \begin_inset Index idx
 status open
 
@@ -2586,7 +2586,7 @@ USB flash drive
 
 \end_inset
 
- in Linux
+ в Linux
 \end_layout
 
 \begin_layout Standard
@@ -2695,7 +2695,7 @@ Once it has finished, reboot your system, making sure to select the USB
 \end_layout
 
 \begin_layout Subsection
-Using the CLI
+Используя CLI
 \end_layout
 
 \begin_layout Standard
@@ -2776,7 +2776,7 @@ Once completed reboot your system and boot from the USB drive by selecting
 \end_layout
 
 \begin_layout Section
-Writing to a USB flash drive in Microsoft Windows
+Запись на USB-флешку в Microsoft Windows
 \end_layout
 
 \begin_layout Subsection
@@ -2969,11 +2969,11 @@ Etcher
 \end_layout
 
 \begin_layout Part
-Installing Manjaro
+Установка Manjaro
 \end_layout
 
 \begin_layout Chapter
-Booting the Live environment
+Загрузка живого окружения
 \begin_inset Index idx
 status open
 
@@ -3069,7 +3069,7 @@ Calamares
 \end_layout
 
 \begin_layout Subsection
-Booting in UEFI mode
+Загрузка в режиме UEFI
 \end_layout
 
 \begin_layout Standard
@@ -3086,7 +3086,7 @@ The most important step is to ensure that your machine does not have Secure
 \end_layout
 
 \begin_layout Section
-The boot menu
+Меню загрузки
 \end_layout
 
 \begin_layout Standard
@@ -3147,7 +3147,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-Boot menu in BIOS mode
+Меню загрузки в режиме BIOS
 \end_layout
 
 \end_inset
@@ -3156,7 +3156,7 @@ Boot menu in BIOS mode
 \begin_inset Text
 
 \begin_layout Plain Layout
-Boot menu in UEFI mode
+Меню загрузки в режиме UEFI
 \end_layout
 
 \end_inset
@@ -3186,7 +3186,7 @@ It is possible at this stage to set your preferred language and keyboard
 \end_layout
 
 \begin_layout Section
-Setting your language and keyboard layout
+Настройка вашего языка и раскладки клавиатуры
 \end_layout
 
 \begin_layout Standard
@@ -3322,7 +3322,7 @@ reference "keyboard_layout"
 \end_layout
 
 \begin_layout Section
-Choosing the drivers
+Выбор драйверов
 \end_layout
 
 \begin_layout Standard
@@ -3454,7 +3454,7 @@ Start Manjaro Linux
 \end_layout
 
 \begin_layout Section
-Welcome to Manjaro
+Добро пожаловать в Manjaro
 \end_layout
 
 \begin_layout Standard
@@ -3545,7 +3545,7 @@ On the desktop, a shortcut to the Manjaro Architect installer is also available,
 \end_layout
 
 \begin_layout Subsection
-Change the keyboard layout
+Выбор раскладки клавиатуры
 \end_layout
 
 \begin_layout Standard
@@ -3733,7 +3733,7 @@ OK
 \end_layout
 
 \begin_layout Chapter
-Some useful definitions
+Некоторые полезные определения
 \end_layout
 
 \begin_layout Standard
@@ -4041,7 +4041,7 @@ Feel free to come back to this short list if you ever need it! Some links
 \end_layout
 
 \begin_layout Chapter
-Dual-booting with Microsoft Windows 10
+Двойная загрузка с Microsoft Windows 10
 \end_layout
 
 \begin_layout Standard
@@ -4093,7 +4093,7 @@ The graphical installer used by Manjaro is called Calamares.
 \end_layout
 
 \begin_layout Subsection
-Choose your language
+Выбор вашего языка
 \end_layout
 
 \begin_layout Standard
@@ -4140,7 +4140,7 @@ Language
 \end_layout
 
 \begin_layout Subsection
-Choose your location
+Выбор вашего местоположения
 \end_layout
 
 \begin_layout Standard
@@ -4229,7 +4229,7 @@ Change...
 \end_layout
 
 \begin_layout Subsection
-Choose your keyboard layout
+Выбор раскладки клавиатуры
 \end_layout
 
 \begin_layout Standard
@@ -4308,7 +4308,7 @@ Keyboard Model
 \end_layout
 
 \begin_layout Subsection
-Select the partitioning method
+Выберите метод разбивки на разделы
 \end_layout
 
 \begin_layout Standard
@@ -4528,7 +4528,7 @@ reference "encryption"
 \end_layout
 
 \begin_layout Subsection
-Set user information
+Настройка информации о пользователе
 \end_layout
 
 \begin_layout Standard
@@ -4592,7 +4592,7 @@ password
 \end_layout
 
 \begin_layout Subsection
-Look back at your choices and confirm
+Просмотрите свой выбор и подтвердите
 \end_layout
 
 \begin_layout Standard
@@ -4664,7 +4664,7 @@ Back
 \end_layout
 
 \begin_layout Subsection
-Installation...
+Установка...
 \end_layout
 
 \begin_layout Standard
@@ -4705,7 +4705,7 @@ You can now kick back and let the installation proceed! While the installation
 
 \begin_layout Subsection
 ...
- complete!
+ завершена!
 \end_layout
 
 \begin_layout Standard
@@ -4767,11 +4767,11 @@ Restart now
 \end_layout
 
 \begin_layout Section
-Update the GRUB boot loader, or 
+Обновление загрузчика GRUB или 
 \begin_inset Quotes eld
 \end_inset
 
-Where did Windows go?
+Куда делась Windows?
 \begin_inset Quotes erd
 \end_inset
 
@@ -4801,7 +4801,7 @@ in a terminal after booting into Manjaro and it will detect Windows and
 \end_layout
 
 \begin_layout Chapter
-Assisted installation methods
+Вспомогательные методы установки
 \end_layout
 
 \begin_layout Standard
@@ -4882,7 +4882,7 @@ reference "advancedInstallUEFI"
 \end_layout
 
 \begin_layout Section
-Differences in the partition setup between BIOS and UEFI systems
+Различия в настройке разделов между системами BIOS и UEFI
 \end_layout
 
 \begin_layout Standard
@@ -5016,7 +5016,7 @@ reference "windows10"
 \end_layout
 
 \begin_layout Section
-Install Manjaro alongside an existing operating system
+Установка Manjaro рядом с существующей операционной системой
 \end_layout
 
 \begin_layout Standard
@@ -5129,7 +5129,7 @@ UEFI system
 \end_layout
 
 \begin_layout Section
-Replace an existing partition 
+Замена существующей разбивки 
 \begin_inset CommandInset label
 LatexCommand label
 name "replace"
@@ -5320,7 +5320,7 @@ Boot loader location
 \end_layout
 
 \begin_layout Section
-Erase the disk and let Calamares choose a partition scheme
+Сотрите диск и позвольте Calamares выбрать схему разделов
 \end_layout
 
 \begin_layout Standard
@@ -5461,7 +5461,7 @@ reference "windows10"
 \end_layout
 
 \begin_layout Chapter
-Manual installation on a BIOS system
+Ручная установка в системе с BIOS
 \end_layout
 
 \begin_layout Standard
@@ -5529,7 +5529,7 @@ This option is the one that gives you the most control.
 \end_layout
 
 \begin_layout Section
-Setting everything from within Calamares
+Настройка всего изнутри с Calamares
 \end_layout
 
 \begin_layout Standard
@@ -5580,7 +5580,7 @@ Next
 \end_layout
 
 \begin_layout Subsection
-Free some space
+Освободите немного места
 \end_layout
 
 \begin_layout Standard
@@ -5775,7 +5775,7 @@ Please note that no actual modifications to your hard drive will take place
 \end_layout
 
 \begin_layout Subsection
-Create partitions
+Создание разделов
 \end_layout
 
 \begin_layout Standard
@@ -5951,7 +5951,7 @@ linuxswap
 \end_layout
 
 \begin_layout Subsection
-Look back and confirm
+Проверьте и подтвердите
 \end_layout
 
 \begin_layout Standard
@@ -6017,7 +6017,7 @@ Install now
 \end_layout
 
 \begin_layout Section
-Using GParted to create, delete and modify partitions
+Использование GParted для создания, удаления и изменения разделов
 \end_layout
 
 \begin_layout Standard
@@ -6199,7 +6199,7 @@ ing it will select it and offer options as to what to do with it.
 \end_layout
 
 \begin_layout Subsection
-Shrink an existing partition
+Сокращение существующего раздела
 \end_layout
 
 \begin_layout Standard
@@ -6297,7 +6297,7 @@ Before resizing a partition, it is strongly suggested to back the data stored
 \end_layout
 
 \begin_layout Subsection
-Create new partitions
+Создание новых разделов
 \end_layout
 
 \begin_layout Standard
@@ -6418,7 +6418,7 @@ If your new partition does not take all of the available space, you can
 \end_layout
 
 \begin_layout Subsection
-Apply changes
+Применение изменений
 \end_layout
 
 \begin_layout Standard
@@ -6580,7 +6580,7 @@ reference "replace"
 \end_layout
 
 \begin_layout Chapter
-Manual installation on a UEFI system
+Ручная установка на систему с UEFI
 \end_layout
 
 \begin_layout Standard
@@ -6671,7 +6671,7 @@ reference "existing-efi"
 \end_layout
 
 \begin_layout Section
-Creating partitions from scratch
+Создание разделов с чистого листа
 \end_layout
 
 \begin_layout Standard
@@ -6709,7 +6709,7 @@ This scenario will assume that you do not wish to use a single existing
 \end_layout
 
 \begin_layout Subsection
-Create a partition table
+Создание таблицы разделов
 \end_layout
 
 \begin_layout Standard
@@ -6787,7 +6787,7 @@ reference "words"
 \end_layout
 
 \begin_layout Subsection
-Create the EFI partition
+Создание раздела EFI
 \end_layout
 
 \begin_layout Standard
@@ -6974,7 +6974,7 @@ OK
 \end_layout
 
 \begin_layout Subsection
-Create the swap partition
+Создание раздела swap (подкачки)
 \end_layout
 
 \begin_layout Standard
@@ -7062,7 +7062,7 @@ d space.
 \end_layout
 
 \begin_layout Subsection
-Create other partitions
+Создание прочих разделов
 \end_layout
 
 \begin_layout Standard
@@ -7123,7 +7123,7 @@ reference "advancedInstallBIOS"
 \end_layout
 
 \begin_layout Subsection
-Look back and confirm
+Посмотрите и подтвердите
 \end_layout
 
 \begin_layout Standard
@@ -7169,7 +7169,7 @@ You can then proceed as usual up to the summary, which is the last step
 \end_layout
 
 \begin_layout Section
-Using GParted to create partitions beforehand
+Использование GParted для предварительного создания разделов
 \end_layout
 
 \begin_layout Standard
@@ -7205,7 +7205,7 @@ The creation of the partition table and partitions shown above can also
 \end_layout
 
 \begin_layout Subsection
-Create a partition table
+Создание таблицы разделов
 \end_layout
 
 \begin_layout Standard
@@ -7307,7 +7307,7 @@ reference "words"
 \end_layout
 
 \begin_layout Subsection
-Create the EFI partition
+Создание раздела EFI
 \end_layout
 
 \begin_layout Standard
@@ -7410,7 +7410,7 @@ reference "words"
 \end_layout
 
 \begin_layout Subsection*
-Create the swap partition
+Создание раздела swap (подкачки)
 \end_layout
 
 \begin_layout Standard
@@ -7458,7 +7458,7 @@ linux-swap
 \end_layout
 
 \begin_layout Subsection
-Create other partitions
+Создание прочих разделов
 \end_layout
 
 \begin_layout Standard
@@ -7507,7 +7507,7 @@ ext4
 \end_layout
 
 \begin_layout Subsection
-Apply changes
+Применение изменений
 \end_layout
 
 \begin_layout Standard
@@ -7553,7 +7553,7 @@ It is finally time to apply the changes! Make sure everything is to your
 \end_layout
 
 \begin_layout Subsection
-Set the flags for the EFI partition
+Установка флагов для раздела EFI
 \end_layout
 
 \begin_layout Standard
@@ -7689,7 +7689,7 @@ That's it! Your partitions are all set up and ready to use in the installer.
 \end_layout
 
 \begin_layout Subsection
-Use the partitions
+Использование разделов
 \end_layout
 
 \begin_layout Standard
@@ -7839,7 +7839,7 @@ Once everything is set up, you can proceed up to the summary.
 \end_layout
 
 \begin_layout Section
-Using an already existing EFI partition 
+Использование уже существующего раздела EFI
 \end_layout
 
 \begin_layout Standard
@@ -7902,7 +7902,7 @@ reference "efi-from-scratch"
 \end_layout
 
 \begin_layout Subsection
-Choose the EFI partition
+Выбор раздела EFI
 \end_layout
 
 \begin_layout Standard
@@ -8025,7 +8025,7 @@ esp
 \end_layout
 
 \begin_layout Subsection
-Shrink the C: drive partition
+Уменьшите раздел диска C:
 \end_layout
 
 \begin_layout Standard
@@ -8113,7 +8113,7 @@ Then, use the slider at the top of the window that pops up to reduce its
 \end_layout
 
 \begin_layout Subsection
-Create a swap partition
+Создайте раздел swap (подкачки)
 \end_layout
 
 \begin_layout Standard
@@ -8203,7 +8203,7 @@ linuxswap
 \end_layout
 
 \begin_layout Subsection
-Create the other partitions
+Создание прочих разделов
 \end_layout
 
 \begin_layout Standard
@@ -8253,7 +8253,7 @@ Now you can create some new partitions for Manjaro! Here I chose the simplest
 \end_layout
 
 \begin_layout Subsection
-Look back and confirm
+Посмотрите и подтвердите
 \end_layout
 
 \begin_layout Standard
@@ -8298,7 +8298,7 @@ Next
 \end_layout
 
 \begin_layout Chapter
-Encrypting your partitions
+Шифрование разделов
 \end_layout
 
 \begin_layout Standard
@@ -8329,7 +8329,7 @@ Linux Unified Key Setup
 \end_layout
 
 \begin_layout Section
-Assisted installation
+Помощь в установке
 \end_layout
 
 \begin_layout Standard
@@ -8473,7 +8473,7 @@ When booting, a prompt will appear asking for your passphrase.
 \end_layout
 
 \begin_layout Section
-Manual installation
+Ручная установка
 \end_layout
 
 \begin_layout Standard
@@ -8553,11 +8553,11 @@ When ticking the box, you will be asked to enter a passphrase.
 \end_layout
 
 \begin_layout Part
-Welcome to Manjaro
+Добро пожаловать в Manjaro
 \end_layout
 
 \begin_layout Chapter
-The Manjaro desktop
+Рабочий стол Manjaro
 \begin_inset Index idx
 status open
 
@@ -8587,7 +8587,7 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Section
-Congratulations on installing Manjaro Linux!
+Поздравляем с установкой Manjaro Linux!
 \end_layout
 
 \begin_layout Standard
@@ -8862,7 +8862,7 @@ For now, let's look in turn at these five applications to give an idea of
 \end_layout
 
 \begin_layout Section
-Terminal Emulator
+Эмулятор терминала
 \begin_inset Index idx
 status open
 
@@ -8937,7 +8937,7 @@ http://linuxcommand.org/
 \end_layout
 
 \begin_layout Section
-File Manager
+Файловый менеджер
 \begin_inset Index idx
 status open
 
@@ -8998,7 +8998,7 @@ File Manager
 \end_layout
 
 \begin_layout Section
-Web Browser
+Web-браузер
 \begin_inset Index idx
 status open
 
@@ -9071,7 +9071,7 @@ reference "install_software"
 \end_layout
 
 \begin_layout Section
-Mail Reader
+Чтение почты
 \begin_inset Index idx
 status open
 
@@ -9136,7 +9136,7 @@ Mail Reader
 \end_layout
 
 \begin_layout Section
-Add/Remove Software
+Добавление/удаление программ
 \begin_inset Index idx
 status open
 
@@ -9226,7 +9226,7 @@ reference "install_software"
 \end_layout
 
 \begin_layout Chapter
-Getting help
+Получение помощи
 \begin_inset Index idx
 status open
 
@@ -9267,7 +9267,7 @@ Remember that Manjaro is run by its community.
 \end_layout
 
 \begin_layout Section
-Whichever method you use, we look forward to meeting you!
+Какой бы способ вы ни выбрали, мы с нетерпением ждем встречи с вами!
 \end_layout
 
 \begin_layout Standard
@@ -9313,7 +9313,7 @@ The Manjaro Hello screen has links to some excellent resources.
 \end_layout
 
 \begin_layout Section
-Discussion forum
+Дискуссионный форум
 \begin_inset Index idx
 status open
 
@@ -9388,7 +9388,7 @@ The Manjaro discussion forum is a great place to find out more about the
 \end_layout
 
 \begin_layout Section
-Unoffical Telegram
+Неофициальные группы в Telegram
 \begin_inset Index idx
 status open
 
@@ -9398,7 +9398,7 @@ telegram
 
 \end_inset
 
- groups
+
 \end_layout
 
 \begin_layout Standard
@@ -9459,7 +9459,7 @@ Mailing list
 
 \end_inset
 
-Mailing list
+Список рассылки
 \end_layout
 
 \begin_layout Standard
@@ -9592,7 +9592,7 @@ The wiki is essentially an online user manual.
 \end_layout
 
 \begin_layout Chapter
-Maintaining your system
+Обслуживание вашей системы
 \begin_inset Index idx
 status open
 
@@ -9622,7 +9622,7 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Section
-Changing settings
+Изменение настроек
 \begin_inset Index idx
 status open
 
@@ -9642,7 +9642,7 @@ While the Manjaro desktop comes with a set of defaults that should work
 \end_layout
 
 \begin_layout Subsection
-Xfce settings manager
+Менеджер настроек Xfce
 \end_layout
 
 \begin_layout Standard
@@ -9691,7 +9691,7 @@ The Xfce desktop is highly customizable.
 \end_layout
 
 \begin_layout Subsection
-Manjaro Settings Manager
+Менеджер настроек Manjaro
 \end_layout
 
 \begin_layout Standard
@@ -9748,7 +9748,7 @@ Settings
 \end_layout
 
 \begin_layout Section
-Adding a printer
+Добавление принтера
 \begin_inset Index idx
 status open
 
@@ -10225,7 +10225,7 @@ Unlock
 \end_layout
 
 \begin_layout Section
-Updating software
+Обновление программ
 \begin_inset Index idx
 status open
 
@@ -10438,7 +10438,7 @@ Alternatively, you can load Octopi's full interface.
 \end_layout
 
 \begin_layout Section
-Installing language packages
+Установка языковых пакетов
 \end_layout
 
 \begin_layout Standard
@@ -10547,7 +10547,7 @@ Install Packages
 \end_layout
 
 \begin_layout Section
-Installing new software
+Установка новых программ
 \end_layout
 
 \begin_layout Standard
@@ -11167,7 +11167,7 @@ Octopi will show a confirmation that it installed the new software.
 \end_layout
 
 \begin_layout Section
-Using Pacman
+Использование Pacman
 \begin_inset Index idx
 status open
 
@@ -11212,7 +11212,7 @@ ager.
 \end_layout
 
 \begin_layout Subsection
-Synchronising with the Manjaro repositories
+Синхронизация с репозиториями Manjaro
 \end_layout
 
 \begin_layout Standard
@@ -11242,7 +11242,7 @@ sudo pacman -Syy
 \end_layout
 
 \begin_layout Subsection
-Updating software
+Обновление программ
 \end_layout
 
 \begin_layout Standard
@@ -11310,7 +11310,7 @@ sudo pacman -Syyu
 \end_layout
 
 \begin_layout Subsection
-Searching for software
+Поиск программного обеспечения
 \end_layout
 
 \begin_layout Standard
@@ -11325,7 +11325,7 @@ sudo pacman -Ss leafpad
 \end_layout
 
 \begin_layout Subsection
-Installing software
+Установка программного обеспечения
 \end_layout
 
 \begin_layout Standard
@@ -11351,7 +11351,7 @@ sudo pacman -S leafpad
 \end_layout
 
 \begin_layout Subsection
-Removing software
+Удаление программ
 \end_layout
 
 \begin_layout Standard
@@ -11416,7 +11416,7 @@ Be warned, though: this is an advanced command!
 \end_layout
 
 \begin_layout Subsection
-Other Pacman commands
+Прочие команды Pacman
 \end_layout
 
 \begin_layout Standard
@@ -11462,7 +11462,7 @@ To exit, press
 \end_layout
 
 \begin_layout Section
-Updating the mirror
+Обновление списка зеркал
 \begin_inset Index idx
 status open
 
@@ -11472,7 +11472,7 @@ Mirror
 
 \end_inset
 
- list
+
 \end_layout
 
 \begin_layout Standard
@@ -11557,7 +11557,7 @@ sudo pacman -Syyu
 \end_layout
 
 \begin_layout Subsection
-Choosing mirrors
+Выбор зеркал
 \end_layout
 
 \begin_layout Standard
@@ -11624,7 +11624,7 @@ Remember to force a download of the package lists to use the new mirrors!
 \end_layout
 
 \begin_layout Subsection
-Updating mirrors from Pamac
+Обновление зеркал из Pamac
 \end_layout
 
 \begin_layout Standard
@@ -11721,7 +11721,7 @@ Official Repositories
 \end_layout
 
 \begin_layout Subsection
-Switching branches
+Переключение ветвей
 \begin_inset Index idx
 status open
 
@@ -11819,7 +11819,7 @@ sudo pacman -Syyuu
 \end_layout
 
 \begin_layout Section
-Fixing installation errors
+Исправление ошибок установки
 \begin_inset Index idx
 status open
 
@@ -12035,7 +12035,7 @@ Ensures no packages are left out of line with the current repository state.
 \end_layout
 
 \begin_layout Section
-More information
+Прочая информация
 \end_layout
 
 \begin_layout Standard
