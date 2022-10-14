@@ -2974,24 +2974,25 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-Booting the Live environment, whether from CD/DVD or USB flash drive, will
- give you an overview of the Manjaro Linux environment and let you test
- how well it will run on your machine.
- This is very useful to check before committing to install a new operating
- system!
+Загрузка Live-окружения, будь то с CD/DVD или USB-накопителя, даст вам общее
+ представление о среде Manjaro Linux и позволит проверить, насколько хорошо
+ она будет работать на вашей машине.
+ Очень полезно проверить, прежде чем приступать к установке новой операционной
+ системы!
 \end_layout
 
 \begin_layout Standard
-For best results you should be connected to the Internet.
- If you have a wired Ethernet connection, and plug in before booting the
- Live environment, Manjaro will automatically set up a connection.
- If you have a wireless (Wi-Fi) connection you can set up the wireless network
- once you have reached the Manjaro desktop.
+Для достижения наилучших результатов вы должны быть подключены к Интернету.
+ Если у вас есть проводное Ethernet-соединение и вы подключитесь к нему
+ до загрузки Live-среды, Manjaro автоматически установит соединение.
+ Если у вас беспроводное (Wi-Fi) подключение, то вы можете настроить беспроводну
+ю сеть после того, как попадете на рабочий стол Manjaro.
 \end_layout
 
 \begin_layout Standard
-The method of selecting the boot device varies considerably across machines.
- You may need to hold one key, for example <
+Метод выбора загрузочного устройства значительно отличается на разных машинах.
+ Для выбора загрузочного устройства может потребоваться удерживать одну
+ клавишу, например <
 \series bold
 Esc
 \series default
@@ -2999,14 +3000,14 @@ Esc
 \series bold
 Del
 \series default
->, or <
+> или <
 \series bold
 F10
 \series default
->, to select the boot device.
- Or, you may need to set the option in your BIOS.
- If you're not sure, your machine's user guide will have detail of the method
- you need, alternatively a web search will also quickly turn up the answer.
+>.
+ Или вам может потребоваться установить этот параметр в BIOS.
+ Если вы не уверены, в руководстве пользователя вашей машины будет подробно
+ описан нужный метод, а поиск в Интернете также поможет быстро найти ответ.
 \end_layout
 
 \begin_layout Section
@@ -3014,29 +3015,28 @@ BIOS vs UEFI
 \end_layout
 
 \begin_layout Quote
-UEFI is the commonly agreed on name for both the EFI & UEFI standards which
- merged.
- It does not include the old EFI v1, or Apple's own non-standard version
- of EFI.
+UEFI - это общепринятое название стандартов EFI и UEFI, которые объединились.
+ Он не включает в себя старый EFI v1 или собственную нестандартную версию
+ EFI от Apple.
 \end_layout
 
 \begin_layout Standard
-Some newer hardware do not use the well-known BIOS to manage boot options.
- Instead, a new one named UEFI (Unified Extensible Firmware Interface) is
- used.
- It still has BIOS-like menus and often has a legacy mode, which uses BIOS.
- UEFI often goes hand in hand with the infamous Secure Boot option that
- makes it more difficult to boot operating systems outside of a select few.
- If your computer came with Microsoft Windows 8 or later installed, your
- computer probably uses UEFI and has Secure Boot enabled by default.
- However, the Linux community reacted to this and developed means to install
- and boot Linux on those systems as well.
- Some installers, such as 
-\emph on
-Calamares
-\emph default
- which is used by Manjaro, can even automate the process so it makes virtually
- no difference to the user whether their machine uses UEFI or BIOS.
+Некоторые новые аппаратные средства не используют известный BIOS для управления
+ параметрами загрузки.
+ Вместо этого используется новый интерфейс под названием UEFI (Unified Extensibl
+e Firmware Interface).
+ Он все еще имеет меню, подобное BIOS, и часто имеет устаревший режим, в
+ котором используется BIOS.
+ UEFI часто сочетается с печально известной опцией Secure Boot, которая
+ усложняет загрузку операционных систем за пределами некоторых из них.
+ Если на вашем компьютере установлена операционная система Microsoft Windows
+ 8 или более поздняя версия, то, скорее всего, в вашем компьютере используется
+ UEFI и Secure Boot включен по умолчанию.
+ Однако сообщество Linux отреагировало на это и разработало средства для
+ установки и загрузки Linux и на этих системах.
+ Некоторые программы установки, такие как Calamares, используемая в Manjaro,
+ могут даже автоматизировать процесс, так что для пользователя практически
+ нет разницы, использует ли его компьютер UEFI или BIOS.
 \end_layout
 
 \begin_layout Subsection
@@ -3046,14 +3046,15 @@ Calamares
 \begin_layout Standard
 
 \series bold
-The most important step is to ensure that your machine does not have Secure
- Boot enabled
+Самый важный шаг - убедиться, что на вашей машине не включена функция Secure
+ Boot.
+
 \series default
-.
- Only a very limited number of operating systems will boot with this enabled.
- You must disable Secure Boot in your UEFI/BIOS before proceeding; if you
- don't know how to do this please refer to your computer's user manual,
- as it differs for all computers.
+ Только очень ограниченное число операционных систем загружается с включенной
+ функцией.
+ Перед началом работы необходимо отключить Secure Boot в UEFI/BIOS; если
+ вы не знаете как это сделать - обратитесь к руководству пользователя для
+ вашего компьютера, так как для всех компьютеров эта процедура отличается.
 \end_layout
 
 \begin_layout Section
@@ -3061,10 +3062,10 @@ The most important step is to ensure that your machine does not have Secure
 \end_layout
 
 \begin_layout Standard
-When you boot from your installation media (CD/DVD or USB flash drive) you
- should be presented with the Manjaro boot screen.
- This screen provides several options to help get the best experience from
- the Live environment.
+При загрузке с установочного носителя (CD/DVD или USB-накопителя) перед
+ вами должен появиться экран загрузки Manjaro.
+ Этот экран предоставляет несколько опций, которые помогут получить наилучшие
+ впечатления от работы в Live-среде.
 \end_layout
 
 \begin_layout Standard
@@ -3146,10 +3147,10 @@ status open
 \end_layout
 
 \begin_layout Standard
-It is possible at this stage to set your preferred language and keyboard
- layout before using Manjaro.
- This means that you will be able to use and install Manjaro in your native
- language straight away.
+На этом этапе можно установить предпочитаемый язык и раскладку клавиатуры
+ перед использованием Manjaro.
+ Это означает, что вы сразу же сможете использовать и установить Manjaro
+ на своем родном языке.
 \begin_inset Newpage newpage
 \end_inset
 
@@ -3161,16 +3162,17 @@ It is possible at this stage to set your preferred language and keyboard
 \end_layout
 
 \begin_layout Standard
-First, set your preferred language by moving the selection to 
+Сначала установите предпочтительный язык, переместив выделение на запись
+ 
 \emph on
 lang=en_US
 \emph default
- entry using the arrow keys and pressing the
+ с помощью клавиш со стрелками и нажав клавишу 
 \series bold
- <Enter>
+<Enter>
 \series default
- key.
- A list of available languages will appear.
+.
+ Появится список доступных языков.
 \end_layout
 
 \begin_layout Standard
@@ -3194,7 +3196,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Language selection
+Выбор языка
 \end_layout
 
 \end_inset
@@ -3208,23 +3210,23 @@ Language selection
 \end_layout
 
 \begin_layout Standard
-Use the arrow keys to select your language and press <
+С помощью клавиш со стрелками выберите язык и нажмите 
 \series bold
-Enter
+<Enter>
 \series default
-> to confirm and to be taken back to the boot menu.
+ для подтверждения и возврата в меню загрузки.
 \end_layout
 
 \begin_layout Standard
-Next, to select your keyboard layout, select the 
+Далее, чтобы выбрать раскладку клавиатуры, выберите запись 
 \emph on
 keytable=us
 \emph default
- entry and press <
+ и нажмите 
 \series bold
-Enter
+<Enter>
 \series default
->.
+.
 \end_layout
 
 \begin_layout Standard
@@ -3248,7 +3250,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Keyboard layout selection
+Выбор раскладки клавиатуры
 \end_layout
 
 \end_inset
@@ -3262,16 +3264,17 @@ Keyboard layout selection
 \end_layout
 
 \begin_layout Standard
-In the menu that appears, each entry refers to a different layout.
- The last two letters indicate the country or language in which they are
- used, or a combination of the two.
- Select the one appropriate for you and press <
+В появившемся меню каждый пункт относится к разным раскладкам.
+ Последние две буквы указывают на страну или язык, на котором они используются
+ или их комбинацию.
+ Выберите подходящий для вас вариант и нажмите 
 \series bold
-Enter
+<Enter>
 \series default
->.
- If you cannot find the one you are used to, do not worry, you will be able
- to select it once in the Live environment (see subsection 
+.
+ Если вы не можете найти привычную вам раскладку, не волнуйтесь - вы сможете
+ выбрать ее в Live-среде (см.
+ подраздел 
 \series bold
 
 \begin_inset CommandInset ref
@@ -3297,34 +3300,34 @@ reference "keyboard_layout"
 \end_layout
 
 \begin_layout Standard
-There are two main sets of drivers that can be used by Manjaro:
+Существует два основных набора драйверов, которые могут быть использованы
+ в Manjaro: 
 \series bold
- Free
+Free
 \series default
- and
+ и 
 \series bold
- non-Free
+non-Free
 \series default
 .
- The differences are not minor, and your choice can depend on your computer
- hardware.
- Some of the drivers are used for display.
- The one associated with your graphics card will be selected in both of
- these categories.
+ Различия между ними незначительны, и ваш выбор может зависеть от аппаратного
+ обеспечения вашего компьютера.
+ Некоторые из драйверов используются для графики.
+ В обеих категориях будет выбран тот, который связан с вашей видеокартой.
 \begin_inset Flex Marginnote
 status open
 
 \begin_layout Plain Layout
-If in doubt, choose
+Если вы сомневаетесь, выбирайте драйверы 
 \series bold
- Free
+Free
 \series default
- drivers.
- If you want to play games with an Nvidia graphics card, choose
+.
+ Если же хотите играть в игры с видеокартой Nvidia, выбирайте 
 \series bold
- non-Free
+non–Free
 \series default
- drivers.
+ драйверы.
 \end_layout
 
 \end_inset
@@ -3337,10 +3340,10 @@ If in doubt, choose
 \series bold
 Free
 \series default
- drivers are open-source, like Manjaro itself, written and updated by a
- large community.
- For AMD graphics cards and hardware with Intel-based integrated graphics,
- this is the best choice.
+ драйверы с открытым исходным кодом, как и сам Manjaro, написаны и обновляются
+ большим сообществом.
+ Для видеокарт AMD и оборудования с интегрированной графикой на базе Intel
+ это лучший выбор.
 \end_layout
 
 \begin_layout Description
@@ -3348,45 +3351,45 @@ Free
 \series bold
 Non-Free
 \series default
- drivers are closed-source, written and updated only by the hardware manufacture
-rs.
- This is generally the best choice for newer Nvidia dedicated graphics.
- For older Nvidia hardware the 
-\series bold
-Free
-\series default
- drivers work very well.
+ Драйверы с закрытым исходным кодом, пишутся и обновляются только производителям
+и оборудования.
+ Как правило, это лучший выбор для новых специализированных графических
+ устройств Nvidia.
+ Для более старого оборудования Nvidia отлично работают бесплатные драйверы.
 \end_layout
 
 \begin_layout Standard
-To select which drivers to use, select the 
+Чтобы выбрать, какие драйверы использовать, выберите запись 
 \emph on
 driver=free
 \emph default
- entry and press <
+ и нажмите 
 \series bold
-Enter
+<Enter>
 \series default
->.
- In the menu that appears, select the desired driver type using the arrow
- keys and press <
+.
+ В появившемся меню выберите нужный тип драйвера с помощью клавиш со стрелками
+ и нажмите 
 \series bold
-Enter
+<Enter>
 \series default
->.
+.
 \end_layout
 
 \begin_layout Standard
-Finally, to start the Manjaro Live environment with the chosen parameters,
- select the entry starting with 
+Наконец, чтобы запустить Live-среду Manjaro с выбранными параметрами, выберите
+ запись, начинающуюся с 
 \emph on
 Boot
 \emph default
- and press <
+, и нажмите 
 \series bold
-Enter
+<Enter>
 \series default
->.
+.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -3404,7 +3407,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Start Manjaro Linux
+Запуск Manjaro Linux
 \end_layout
 
 \end_inset
@@ -3429,11 +3432,11 @@ Start Manjaro Linux
 \end_layout
 
 \begin_layout Standard
-Once you select Start, Manjaro will boot up.
- You may see a lot of scrolling text - don't worry, this shows the system
- is working! After a little while, assuming your hardware is compatible,
- you will be presented with a Live desktop environment and a nice friendly
- welcome screen.
+Как только вы выберете Запуск - Manjaro загрузится.
+ Вы можете увидеть много прокручивающегося текста - не волнуйтесь, это показывае
+т, что система работает! Через некоторое время, при условии, что ваше оборудован
+ие совместимо, перед вами откроется Live-среда рабочего стола и приятный
+ приветственный экран.
 \begin_inset Float figure
 wide false
 sideways false
@@ -3451,7 +3454,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Welcome to Manjaro!
+Добро пожаловать в Manjaro!
 \end_layout
 
 \end_inset
@@ -3465,11 +3468,11 @@ Welcome to Manjaro!
 \end_layout
 
 \begin_layout Standard
-The welcome screen gives some links to common tasks, documentation and the
- support channels.
- There is also a link to the Calamares graphical installation program.
- Don't worry if you close the welcome screen: you can load it again, and
- all the links are also present elsewhere in the menus.
+На экране приветствия приведены ссылки на общие задачи, документацию и каналы
+ поддержки.
+ Также есть ссылка на графическую программу установки Calamares.
+ Не беспокойтесь если закроете экран приветствия: вы можете загрузить его
+ снова, и все ссылки также присутствуют в других разделах меню.
 \end_layout
 
 \begin_layout Standard
@@ -3490,7 +3493,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Live desktop
+Рабочий стол режима Live
 \end_layout
 
 \end_inset
@@ -3504,15 +3507,15 @@ Live desktop
 \end_layout
 
 \begin_layout Standard
-This user guide as well as the installer, Calamares, can be found on the
- desktop.
- Internet access can be configured from the bottom right of the screen.
+Это руководство пользователя, а также программу установки Calamares можно
+ найти на рабочем столе.
+ Доступ в Интернет можно настроить в правой нижней части экрана.
 \end_layout
 
 \begin_layout Standard
-On the desktop, a shortcut to the Manjaro Architect installer is also available,
- although it is not aimed at beginners.
- It is the same that is available in the Architect edition.
+На рабочем столе также доступен ярлык программы установки Manjaro Architect,
+ хотя она не предназначена для новичков.
+ Это то же самое, что доступно в редакции Architect.
 \end_layout
 
 \begin_layout Subsection
@@ -3530,8 +3533,8 @@ name "keyboard_layout"
 \end_layout
 
 \begin_layout Standard
-If you could not find your keyboard layout in the boot menu, there are still
- other ways to set it.
+Если вы не смогли найти свою раскладку клавиатуры в загрузочном меню, есть
+ и другие способы ее установить.
 \end_layout
 
 \begin_layout Standard
@@ -3555,14 +3558,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The keyboard layout can be changed in the Calamares installer.
- It will instantly be applied to the Live environment.
- However, you can also change it in the 
-\series bold
-Xfce settings
-\series default
-.
- They can be found through the applications menu.
+Раскладку клавиатуры можно изменить в программе установки Calamares.
+ Она будет мгновенно применена к Live-среде.
+ Однако вы также можете изменить ее в настройках Xfce.
+ Их можно найти в меню приложений.
 \end_layout
 
 \end_inset
@@ -3596,11 +3595,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-In the window that opens, choose the 
+В открывшемся окне выберите параметры 
 \series bold
-Keyboard
+Клавиатура
 \series default
- settings.
+.
 \end_layout
 
 \end_inset
@@ -3634,17 +3633,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Once there, go to the 
+Там перейдите на вкладку 
 \series bold
-Layout
+Раскладка
 \series default
- tab, select the 
+, выберите язык 
 \series bold
 English (US)
 \series default
- language and click on 
+ и нажмите 
 \series bold
-Edit
+Редактировать
 \series default
 .
 \end_layout
@@ -3680,13 +3679,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Find your language in the list, select it and click 
+Найдите в списке свой язык, выберите его и нажмите 
 \series bold
 OK
 \series default
 .
- Once this is done, you can close the window.
- The layout of your keyboard has been changed!
+ После этого вы можете закрыть окно.
+ Раскладка вашей клавиатуры была изменена!
 \end_layout
 
 \end_inset
@@ -3791,70 +3790,62 @@ name "words"
 \end_layout
 
 \begin_layout Standard
-If you sometimes feel like saying 
-\begin_inset Quotes eld
-\end_inset
-
-
+Если вам иногда хочется сказать: 
 \emph on
-What do these words mean, is he just making them up
+"Что означают эти слова, он их просто выдумал?"
 \emph default
-?
-\begin_inset Quotes erd
-\end_inset
-
-, this chapter is for you.
- Installing a new operating system may force you to face some concepts you
- have barely even heard of before, such as 
+, то эта глава для вас.
+ Установка новой операционной системы может заставить вас столкнуться с
+ некоторыми понятиями, о которых вы раньше даже не слышали, такими как 
 \emph on
-partitions
+разделы
 \emph default
- and 
+ и 
 \emph on
-file systems
+файловые системы
 \emph default
 .
- This can be a bit overwhelming at first, but do not despair, as this short
- chapter is here to help you! Most of these terms will only be important
- if you choose to manually install Manjaro.
- In the three different assisted installation options, the installer will
- do almost all the work for you.
+ Поначалу это может быть немного ошеломляющим, но не отчаивайтесь, ведь
+ эта небольшая глава поможет вам! Большинство этих терминов будут важны
+ только в том случае, если вы решите установить Manjaro вручную.
+ В трех различных вариантах установки с помощью помощника программа установки
+ сделает почти всю работу за вас.
 \end_layout
 
 \begin_layout Standard
-First of all, installing a new operating system will require you (or the
- installer) to perform some disc management tasks in order to free some
- space on your drive to be able to install it.
- You will most likely encounter the following terms.
+Прежде всего, установка новой операционной системы потребует от вас (или
+ от программы установки) выполнения некоторых задач по управлению дисками,
+ чтобы освободить место на диске для установки.
+ Скорее всего, вы столкнетесь со следующими терминами.
 \end_layout
 
 \begin_layout Description
-Partition A partition is a portion of a drive which stores data (files)
- using a certain format named file system.
- It may be part of an operating system installation, or simply be used for
- storing files.
- A drive may be split into multiple partitions, each acting as its own separate
- entity and using its own file system.
- All drives, be they hard drives or flash drives such as USB keys, contain
- one or more partitions.
- An example of a partition is the famous C: drive used by Microsoft Windows.
+Раздел - это часть диска, на которой хранятся данные (файлы) с использованием
+ определенного формата, называемого файловой системой.
+ Он может быть частью установленной операционной системы или просто использовать
+ся для хранения файлов.
+ Диск может быть разделен на несколько разделов, каждый из которых действует
+ как отдельная сущность и использует свою файловую систему.
+ Все диски, будь то жесткие диски или флэш-накопители, такие как USB-носители,
+ содержат один или несколько разделов.
+ Примером раздела является знаменитый диск C:, используемый Microsoft Windows.
 \end_layout
 
 \begin_layout Description
-File
-\begin_inset space ~
+Файловая
+\begin_inset space \space{}
 \end_inset
 
-system A file system is a format used to write files in a partition.
- Some popular file systems are 
+система - это формат, используемый для записи файлов в раздел.
+ Некоторые популярные файловые системы: 
 \series bold
 ntfs
 \series default
- (used by Microsoft Windows), 
+ (используется в Microsoft Windows), 
 \series bold
 ext4
 \series default
- (used by Linux), 
+ (используется в Linux), 
 \series bold
 fat32
 \series default
@@ -3862,71 +3853,59 @@ fat32
 \series bold
 btrfs
 \series default
- and 
+ и 
 \series bold
 xfs
 \series default
 .
- Each one is used in a different context and has its own strengths and weaknesse
-s.
- For instance, fat32 can be read by about any operating system, but each
- file stored must be smaller than 4 GB.
+ Каждая из них используется в разных контекстах и имеет свои сильные и слабые
+ стороны.
+ Например, fat32 может быть прочитана практически любой операционной системой,
+ но каждый хранимый файл должен быть меньше 4 ГБ.
 \end_layout
 
 \begin_layout Description
-Partition
+Таблица
 \begin_inset space ~
 \end_inset
 
-table A partition table is a list of all the partitions existing on a drive.
- The two main types are 
-\series bold
-Master Boot Record
-\series default
- (MBR) and 
-\series bold
-GUID Partition Table
-\series default
- (GPT).
- Different partition tables allow for different types of partitions on them,
- such as primary and extended.
- MBR partition tables are generally used on older BIOS systems and can only
- contain a limited number of primary partitions, while GPT is generally
- used on newer UEFI systems and do not have such a restriction.
- This is not always the case though.
+разделов - это список всех разделов, существующих на диске.
+ Два основных типа: главная загрузочная запись (MBR) и таблица разделов
+ GUID (GPT).
+ Различные таблицы разделов позволяют создавать в них различные типы разделов,
+ например, первичные и расширенные.
+ Таблицы разделов MBR обычно используются в старых системах BIOS и могут
+ содержать только ограниченное количество первичных разделов, а GPT как
+ правило используется в новых системах UEFI и не имеет таких ограничений.
+ Однако это не всегда так.
 \end_layout
 
 \begin_layout Description
-Directory A directory is what is often called a folder on Windows.
- You can treat them as one and the same.
+Каталог
+\begin_inset space \space{}
+\end_inset
+
+(Директория) - это то, что в Windows часто называют папкой.
+ Их можно рассматривать как одно и то же.
 \end_layout
 
 \begin_layout Description
-Directory
+Дерево
 \begin_inset space ~
 \end_inset
 
-Tree The directories on Linux are arranged in the form of a tree, originating
- from the / directory, called the 
-\begin_inset Quotes eld
-\end_inset
-
-root
-\begin_inset Quotes erd
-\end_inset
-
- directory.
- Each one has a specific use.
- For example, the /home directory stores the users' personal files, while
- the /etc directory stores system-wide configuration files.
- A complete description of the directory tree can be found on Wikipedia:
- 
+каталогов Каталоги в Linux расположены в виде дерева, берущего начало из
+ каталога /, называемого "корневым" каталогом.
+ Каждый из них имеет определенное назначение.
+ Например, в каталоге /home хранятся личные файлы пользователей, а в каталоге
+ /etc - общесистемные файлы конфигурации.
+ Полное описание дерева каталогов можно найти в Википедии: 
 \begin_inset Flex URL
 status open
 
 \begin_layout Plain Layout
 
-https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
+https://ru.wikipedia.org/wiki/FHS
 \end_layout
 
 \end_inset
@@ -3935,80 +3914,81 @@ https://en.wikipedia.org/wiki/Filesystem_Hierarchy_Standard
 \end_layout
 
 \begin_layout Description
-Mount
+Точка
 \begin_inset space ~
 \end_inset
 
-point A mount point represents the directory from which a partition is accessibl
-e.
- Just like clicking on the C: drive in your file manager on Windows allows
- you to see the contents of this partition, clicking on a directory where
- a partition is mounted will allow you to view its contents.
-\end_layout
+монтирования представляет собой каталог, из которого доступен раздел.
+ Точно так же, как щелчок на диске C: в файловом менеджере Windows позволяет
+ просмотреть содержимое этого раздела, щелчок на каталоге, в который смонтирован
+ раздел, позволяет просмотреть его содержимое.
+\begin_inset Newline newline
+\end_inset
 
-\begin_layout Standard
-Moreover, several programs are used when booting your computer, from starting
- the hardware to logging in the operating system.
-\end_layout
-
-\begin_layout Description
-Live-CD A Live-CD is a version of an operating system that runs in the computer'
-s memory, without needing to access the hard drive.
- It is generally loaded from a CD, DVD or USB key that was used at boot.
- Changes made to the Live environment are not saved.
- Live-CDs are often used to give a preview of an operating system and include
- tools to install it.
- They can also be used to manage the hard drive's partitions and rescue
- lost data.
+Кроме того, при загрузке компьютера используется несколько программ - от
+ запуска оборудования до входа в операционную систему.
 \end_layout
 
 \begin_layout Description
-BIOS The 
+Live-CD - это версия операционной системы, которая работает в памяти компьютера
+ без необходимости обращения к жесткому диску.
+ Обычно она загружается с CD, DVD или USB-носителя, который использовался
+ при загрузке.
+ Изменения, внесенные в среду Live, не сохраняются.
+ Live-CD часто используются для предварительного просмотра операционной
+ системы и включают инструменты для ее установки.
+ Они также могут использоваться для управления разделами жесткого диска
+ и восстановления потерянных данных.
+\end_layout
+
+\begin_layout Description
+BIOS 
 \series bold
 Basic Input/Output System
 \series default
- (BIOS) is a firmware used when booting to initialize hardware.
- It offers various settings in menus accessible when pressing a specific
- key during boot.
- Systems using BIOS often have a MBR partition table.
- It can be used to boot on a USB stick, start a Live environment and install
- Manjaro.
+ (Базовая система ввода/вывода) - это микропрограмма, используемая при загрузке
+ для инициализации оборудования.
+ Она предлагает различные настройки в меню, доступных при нажатии определенной
+ клавиши во время загрузки.
+ Системы, использующие BIOS, часто имеют таблицу разделов MBR.
+ Его можно использовать для загрузки с USB-носителя, запуска Live-среды
+ и установки Manjaro.
 \end_layout
 
 \begin_layout Description
-UEFI The 
+UEFI 
 \series bold
 Unified Extensible Firmware Interface
 \series default
- (UEFI) is the successor of the BIOS.
- It is often used on newer computers.
- It still has BIOS-like menus and often has a legacy mode, which uses BIOS.
- The partition scheme used by operating systems on a computer using UEFI
- is slightly different from the one used on a BIOS system.
- For instance, a small fat32 partition is needed to contain some files used
- when booting.
- Systems using UEFI often have a GPT partition table.
+ (Интерфейс расширяемой прошивки) является преемником BIOS.
+ Он часто используется в новых компьютерах.
+ Он по-прежнему имеет меню, похожие на меню BIOS, и часто имеет устаревший
+ режим, в котором используется BIOS.
+ Схема разделов, используемая операционными системами на компьютере с UEFI,
+ немного отличается от схемы, используемой в системе BIOS.
+ Например, небольшой раздел fat32 необходим для хранения некоторых файлов,
+ используемых при загрузке.
+ Системы, использующие UEFI, часто имеют таблицу разделов GPT.
 \end_layout
 
 \begin_layout Description
-Boot
-\begin_inset space ~
-\end_inset
-
-loader A boot loader is a program which enables you to choose which operating
- system to boot when you turn on your computer.
- At boot, a list of all detected operating systems on the computer is displayed.
- One of the most widely used boot loaders is 
+Загрузчик - это программа, которая позволяет выбрать, какая операционная
+ система будет загружаться при включении компьютера.
+ При загрузке отображается список всех обнаруженных на компьютере операционных
+ систем.
+ Одним из наиболее широко используемых загрузчиков является 
 \series bold
 GRUB
 \series default
 .
- It is the one installed by Calamares, the installer used by Manjaro.
+ Именно его устанавливает Calamares - программа установки, используемая
+ в Manjaro.
 \end_layout
 
 \begin_layout Standard
-Feel free to come back to this short list if you ever need it! Some links
- are scattered throughout the guide for quick access.
+Не стесняйтесь возвращаться к этому краткому списку, если он вам когда-нибудь
+ понадобится! Некоторые ссылки разбросаны по всему руководству для быстрого
+ доступа.
 \end_layout
 
 \begin_layout Chapter
@@ -4055,12 +4035,12 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-The graphical installer used by Manjaro is called Calamares.
- If you are installing Manjaro on a computer which already has Windows installed
-, chances are you will want to dual-boot between the two of them.
- This section will show you how to accomplish this without going through
- the trouble of partitioning the disk yourself.
- This part will be handled automatically by the installer.
+Графическая программа установки, используемая в Manjaro, называется Calamares.
+ Если вы устанавливаете Manjaro на компьютер, на котором уже установлена
+ Windows, скорее всего, вы захотите использовать двойную загрузку.
+ В этом разделе мы расскажем вам, как это сделать, не прибегая к самостоятельном
+у разбиению диска на разделы.
+ Эта часть будет выполнена автоматически программой установки.
 \end_layout
 
 \begin_layout Subsection
@@ -4085,15 +4065,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-This screen is the first one you will see when starting the installer.
- You can select your language from the 
+Этот экран - первый, который вы увидите при запуске программы установки.
+ Вы можете выбрать свой язык в меню 
 \series bold
-Language
+Язык
 \series default
- menu.
- Also, if you differ from the recommended settings, such as not being connected
- to the Internet or not being plugged in, this is where you will receive
- a warning.
+.
+ Кроме того, если ваши настройки отличаются от рекомендованных, например,
+ вы не подключены к Интернету или не подключены к электросети, здесь вы
+ получите предупреждение.
 \end_layout
 
 \end_inset
@@ -4135,16 +4115,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-You can select your time zone by either clicking on the map close to your
- location or by browsing the 
+Вы можете выбрать часовой пояс, щелкнув по карте рядом с вашим местоположением
+ или просмотрев меню 
 \series bold
-Region
+Регион
 \series default
- and 
+ и 
 \series bold
-Zone
+Зона
 \series default
- menus.
+.
 \end_layout
 
 \end_inset
@@ -4175,14 +4155,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-When clicking on one of the 
+При нажатии на одну из кнопок 
 \series bold
-Change...
+Изменить...
 
 \series default
- buttons, a menu will pop up, allowing you to respectively choose the system
- language and the format of the numbers and dates.
- Choosing the ones corresponding to your language and country is best.
+ появляется меню, позволяющее соответственно выбрать язык системы и формат
+ чисел и дат.
+ Лучше всего выбрать те, которые соответствуют вашему языку и стране.
 \end_layout
 
 \end_inset
@@ -4221,11 +4201,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Next, you will be able to choose your keyboard layout.
- Choose your language in the list to the left and then the desired subcategory
- in the list to the right.
- This will ensure the characters you type are the same on the screen as
- they are on your keyboard.
+Далее вы сможете выбрать раскладку клавиатуры.
+ Выберите язык в списке слева, а затем нужную подкатегорию в списке справа.
+ Это обеспечит одинаковое отображение символов на экране и на клавиатуре.
 \end_layout
 
 \end_inset
@@ -4256,12 +4234,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-You can also choose your keyboard model from the 
+Вы также можете выбрать модель клавиатуры в меню 
 \series bold
 Keyboard Model
 \series default
- menu.
- The list is very extensive, so yours will likely be listed there!
+.
+ Список очень обширный, поэтому ваша модель, скорее всего, будет там указана!
 \end_layout
 
 \end_inset
@@ -4300,18 +4278,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-It will then be time to decide which method to use to partition your hard
- drive.
- The selected hard drive is displayed at the top of the window.
- Left of it is an indication stating if it uses BIOS or UEFI.
- The partition table type, MBR or GPT, is indicated at the right of the
- disk.
- The current state of your drive is displayed at the bottom of the window.
- Several partitioning options are available.
- The options presented depend on the state of your drive and may not all
- be available at the same time.
- For instance, you will not have the option to replace a partition on an
- empty hard drive.
+Затем нужно решить, каким методом разбить жесткий диск на разделы.
+ Выбранный жесткий диск отображается в верхней части окна.
+ Слева от него указано, используется ли BIOS или UEFI.
+ Справа от диска указан тип таблицы разделов - MBR или GPT.
+ Текущее состояние диска отображается в нижней части окна.
+ Доступно несколько вариантов разметки.
+ Представленные варианты зависят от состояния диска и могут быть доступны
+ не все одновременно.
+ Например, у вас не будет возможности заменить раздел на пустом жестком
+ диске.
 \end_layout
 
 \end_inset
@@ -4325,17 +4301,17 @@ It will then be time to decide which method to use to partition your hard
 \end_layout
 
 \begin_layout Standard
-In this section, we will choose to 
+В этом разделе мы решили 
 \series bold
-install
+установить
 \series default
  Manjaro 
 \series bold
-alongside
+рядом
 \series default
- an existing operating system, namely Windows, by shrinking a partition
- to make room for Manjaro.
- For a refresher on partitions, see chapter 
+ с существующей операционной системой, а именно Windows, уменьшив раздел,
+ чтобы освободить место для Manjaro.
+ Для получения более подробной информации о разделах смотри раздел 
 \series bold
 
 \begin_inset CommandInset ref
@@ -4349,8 +4325,8 @@ reference "words"
 .
  
 \emph on
-Keep in mind that changes will only be applied at the very end of the installati
-on process, so do not be shy to look around.
+Помните, что изменения будут применены только в самом конце процесса установки,
+ поэтому не стесняйтесь осматриваться.
 \end_layout
 
 \begin_layout Standard
@@ -4378,10 +4354,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-When selecting the option to install Manjaro alongside another operating
- system, the bottom of the window will display a bar representing the current
- state of the hard drive and another representing its state after modifications,
- which at first is identical.
+При выборе параметров установки Manjaro вместе с другой операционной системой
+ в нижней части окна отображается полоса, представляющая текущее состояние
+ жесткого диска, и другая, представляющая его состояние после модификаций,
+ которые поначалу идентичны.
 \end_layout
 
 \end_inset
@@ -4412,10 +4388,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-We will choose to shrink the partition used as the C: drive by Windows.
- It should be the biggest one.
- When clicking on a partition in the bar representing the current state,
- the bottom bar will change to show this partition split in two.
+Мы выберем для уменьшения раздел, используемый Windows в качестве диска
+ C:.
+ Он должен быть самым большим.
+ При щелчке на разделе в строке, отображающей текущее состояние, нижняя
+ строка изменится и покажет этот раздел, разделенный на две части.
 \end_layout
 
 \end_inset
@@ -4453,14 +4430,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Click and drag the separation between the two parts to change the amount
- of space that will be freed to install Manjaro.
- On this picture, Manjaro will be installed on the part indicated in red.
- Please note that you cannot shrink the existing partition to a size smaller
- than the space needed to store the data on it.
- This limits how much the separation can be moved to the left.
- However, you must also free enough space to be able to install Manjaro.
- This limits how much the separation can be moved to the right.
+Нажмите и перетащите разделение между двумя частями, чтобы изменить объем
+ пространства, которое будет освобождено для установки Manjaro.
+ На этом рисунке Manjaro будет установлен на часть, указанную красным цветом.
+ Обратите внимание, что вы не можете уменьшить существующий раздел до размера,
+ меньшего, чем пространство, необходимое для хранения данных на нем.
+ Это ограничивает то, насколько раздел может быть сдвинут влево.
+ Однако необходимо также освободить достаточно места, чтобы можно было установит
+ь Manjaro.
+ Это ограничивает возможность перемещения раздела вправо.
 \end_layout
 
 \end_inset
@@ -4474,10 +4452,11 @@ Click and drag the separation between the two parts to change the amount
 \end_layout
 
 \begin_layout Standard
-You can also choose to encrypt your Manjaro partition.
- That way, anyone trying to access to the data it contains will have to
- enter a password of your choosing.
- For more information, see chapter 
+Вы также можете выбрать шифрование раздела Manjaro.
+ В этом случае любой, кто попытается получить доступ к содержащимся на нем
+ данным, должен будет ввести пароль, который вы установите.
+ Для получения дополнительной информации см.
+ главу
 \series bold
 
 \begin_inset CommandInset ref
@@ -4520,29 +4499,29 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Next, you will be asked for your 
+Далее вас попросят ввести ваше 
 \series bold
-name
+имя
 \series default
-, which will be used by some programs to greet you, a 
+, которое будет использоваться некоторыми программами для приветствия, 
 \series bold
-username
+имя пользователя
 \series default
- to log in the system, the 
+ для входа в систему, 
 \series bold
-name of your computer
+имя вашего компьютера
 \series default
- as it will be seen by others on the same network as you, and a 
+, которое будет видно другим пользователям той же сети, что и вы, и 
 \series bold
-password
+пароль
 \series default
 .
- The password must be entered twice to make sure there are no typos.
- Finally, you can decide whether or not you want to be asked your password
- when logging in and if you want to use the same password for the administrator
- account.
- Recommended settings are already selected.
- Unless you really prefer it another way, we suggest you leave it as is.
+ Пароль необходимо ввести дважды, чтобы убедиться в отсутствии опечаток.
+ Наконец, вы можете решить, хотите ли вы, чтобы при входе в систему у вас
+ спрашивали пароль, и хотите ли вы использовать тот же пароль для учетной
+ записи администратора.
+ Рекомендуемые настройки уже выбраны.
+ Если вы не предпочитаете другой способ, мы советуем оставить все как есть.
 \end_layout
 
 \end_inset
@@ -4594,30 +4573,29 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-As the last step before the installation takes place, you will be presented
- with a short summary of all the choices you made in the other sections.
- Make sure the partition scheme is to your liking, as this is the point
- of no return.
- When clicking 
+В качестве последнего шага перед началом установки вам будет представлен
+ краткий обзор всех вариантов, которые вы выбрали в других разделах.
+ Убедитесь, что схема разделов вам нравится, так как это точка невозврата.
+ При нажатии кнопки 
 \series bold
-Next
+Далее
 \series default
-, a dialog will appear asking if you wish to proceed with the installation.
+ появится диалоговое окно с вопросом, хотите ли вы продолжить установку.
  
 \series bold
-Once you click on Install now, you will no longer be able to edit the partition
- scheme and all data stored on the partitions you chose to overwrite will
- be lost.
+После нажатия кнопки Установить сейчас вы больше не сможете редактировать
+ схему разделов, а все данные, хранящиеся на разделах, которые вы выбрали
+ для перезаписи, будут потеряны.
 
 \series default
- If you changed your mind, you can go 
+ Если вы передумали, вы можете несколько раз вернуться 
 \series bold
-Back
+Назад
 \series default
- a few times to choose another setup.
- The information stored in other filled fields will be kept, so you will
- not need to write it again.
- Once you are satisfied with the summary, continue the installation.
+ и выбрать другую установку.
+ Информация, сохраненная в других заполненных полях, будет сохранена, поэтому
+ вам не придется записывать ее заново.
+ Когда вы будете удовлетворены итогами, продолжите установку.
 \end_layout
 
 \end_inset
@@ -4656,12 +4634,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-You can now kick back and let the installation proceed! While the installation
- takes place, a slideshow will present you some key features of your new
- operating system, Manjaro.
- The installation should take but a few minutes.
- The progress bar will fill up slowly at first but it will soon pick up
- speed.
+Теперь вы можете расслабиться и позволить установке продолжаться! Пока идет
+ установка, слайд-шоу покажет вам некоторые ключевые особенности вашей новой
+ операционной системы Manjaro.
+ Установка займет всего несколько минут.
+ Сначала индикатор выполнения будет заполняться медленно, но вскоре он наберет
+ скорость.
 \end_layout
 
 \end_inset
@@ -4697,27 +4675,28 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The installation is now done! To restart your system immediately and boot
- into your new operating system, select 
+Теперь установка завершена! Чтобы немедленно перезагрузить систему и загрузиться
+ в новую операционную систему, выберите 
 \series bold
-Restart now
+Перезапустить сейчас
 \series default
- and then click 
+, а затем нажмите 
 \series bold
-Quit
-\series default
-.
- If you want to continue exploring the Live version of Manjaro, click 
-\series bold
-Quit
-\series default
- without selecting 
-\series bold
-Restart now
+Выход
 \series default
 .
- When restarting, if you changed the boot order to boot on the Live media,
- you will need to put it back as it was to boot on your hard drive.
+ Если вы хотите продолжить знакомство с Live-версией Manjaro, нажмите 
+\series bold
+Выход
+\series default
+, не выбирая 
+\series bold
+Перезапустить сейчас
+\series default
+.
+ При перезагрузке, если вы изменяли порядок загрузки для загрузки с Live-носител
+я, вам нужно будет вернуть его на прежний, чтобы загрузиться с жесткого
+ диска.
 \end_layout
 
 \end_inset
@@ -4750,14 +4729,14 @@ Restart now
 \end_layout
 
 \begin_layout Standard
-Sometimes the boot loader GRUB2 does not detect an existing Microsoft Windows
- installation when installing.
- This means that only Manjaro Linux will appear in the list of installed
- operating systems when you boot the machine.
+Иногда загрузчик GRUB2 при установке не обнаруживает существующую установку
+ Microsoft Windows.
+ Это означает, что при загрузке машины в списке установленных операционных
+ систем появится только Manjaro Linux.
 \end_layout
 
 \begin_layout Standard
-To solve this problem, run the command:
+Чтобы решить эту проблему, выполните команду:
 \end_layout
 
 \begin_layout LyX-Code
@@ -4767,8 +4746,8 @@ sudo update-grub
 \end_layout
 
 \begin_layout Standard
-in a terminal after booting into Manjaro and it will detect Windows and
- add an entry to the boot menu.
+в терминале после загрузки в Manjaro, и он обнаружит Windows и добавит запись
+ в меню загрузки.
 \end_layout
 
 \begin_layout Chapter
@@ -4825,9 +4804,9 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-Calamares offers a choice of three different assisted installation options,
- which we will cover here one by one.
- The manual installation is presented in chapter 
+Calamares предлагает на выбор три варианта вспомогательной установки, которые
+ мы рассмотрим здесь по очереди.
+ Ручная установка представлена в главе 
 \series bold
 
 \begin_inset CommandInset ref
@@ -4838,7 +4817,7 @@ reference "advancedInstallBIOS"
 
 
 \series default
- for a BIOS system and 
+ для системы BIOS и 
 \series bold
 
 \begin_inset CommandInset ref
@@ -4849,7 +4828,7 @@ reference "advancedInstallUEFI"
 
 
 \series default
- for a UEFI system.
+ для системы UEFI.
 \end_layout
 
 \begin_layout Section
@@ -4857,22 +4836,24 @@ reference "advancedInstallUEFI"
 \end_layout
 
 \begin_layout Standard
-The key difference in the way the partitions are arranged on a UEFI system
- compared to the case with BIOS is that a small partition of a few hundred
- MB must be created to house some of the files used when booting the system.
- This partition must use the fat32 file system.
- Luckily, in all assisted installation options, Calamares handles the creation
- of this partition if it does not already exist and writes the necessary
- files to it.
- If the partition already exists, it is detected and used to write the files.
- In this chapter, for UEFI systems, it is on partition 
+Основное отличие в расположении разделов в системе UEFI по сравнению с BIOS
+ заключается в том, что для размещения некоторых файлов, используемых при
+ загрузке системы, необходимо создать небольшой раздел размером в несколько
+ сотен МБ.
+ Этот раздел должен использовать файловую систему fat32.
+ К счастью, во всех вариантах установки Calamares сам создает этот раздел,
+ если он еще не существует, и записывает в него необходимые файлы.
+ Если раздел уже существует, он будет обнаружен и использован для записи
+ файлов.
+ В этой главе для систем UEFI он находится на разделе 
 \emph on
 sda1
 \emph default
 .
- Also, on UEFI, no matter which method you choose to install Manjaro, you
- won't be asked whether you want to install the GRUB boot loader or not.
- It will be installed automatically.
+ Кроме того, на UEFI, независимо от того, какой метод установки Manjaro
+ вы выберете, вас не спросят, хотите ли вы установить загрузчик GRUB или
+ нет.
+ Он будет установлен автоматически.
 \end_layout
 
 \begin_layout Standard
@@ -4909,7 +4890,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-BIOS system
+система BIOS
 \end_layout
 
 \end_inset
@@ -4938,7 +4919,7 @@ BIOS system
 \begin_inset Text
 
 \begin_layout Plain Layout
-UEFI system
+система UEFI
 \end_layout
 
 \end_inset
@@ -4964,11 +4945,11 @@ UEFI system
 \end_layout
 
 \begin_layout Standard
-Other than that, the process involved in each assisted installation option
- is the same whether you are on a UEFI or BIOS system.
- Calamares takes care of the differences for you.
- For specific instructions about dual-booting with Windows, see chapter
- 
+В остальном, процесс, связанный с каждым вариантом установки, одинаков независим
+о от того, используете ли вы систему UEFI или BIOS.
+ Calamares позаботится о различиях за вас.
+ Конкретные инструкции по двойной загрузке с Windows см.
+ в главе 
 \series bold
 
 \begin_inset CommandInset ref
@@ -4980,10 +4961,10 @@ reference "windows10"
 
 \series default
 .
- Also, note that some installation options may not be available if they
- are not necessary.
- For instance, you will not have the option to replace a partition on an
- empty hard drive.
+ Также обратите внимание, что некоторые параметры установки могут быть недоступн
+ы, если в них нет необходимости.
+ Например, у вас не будет возможности заменить раздел на пустом жестком
+ диске.
 \end_layout
 
 \begin_layout Section
@@ -5020,10 +5001,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-When clicking on a partition in the bar representing the current state,
- the bottom bar will change to show this partition split in two.
- Drag the demarcation to adjust the size of the new partition, as shown
- in section 
+При нажатии на раздел в полосе, представляющей текущее состояние, нижняя
+ полоса изменится и покажет этот раздел, разделенный на две части.
+ Перетащите разделитель, чтобы настроить размер нового раздела, как показано
+ в разделе 
 \series bold
 
 \begin_inset CommandInset ref
@@ -5035,8 +5016,8 @@ reference "windows10"
 
 \series default
 .
- On a UEFI system, the suggested partition setup will mention if an existing
- EFI partition was detected.
+ В системе UEFI в предлагаемой настройке разделов будет упомянуто, если
+ был обнаружен существующий раздел EFI.
 \end_layout
 
 \end_inset
@@ -5052,7 +5033,7 @@ reference "windows10"
 \begin_inset Text
 
 \begin_layout Plain Layout
-BIOS system
+Система BIOS
 \end_layout
 
 \end_inset
@@ -5081,7 +5062,7 @@ BIOS system
 \begin_inset Text
 
 \begin_layout Plain Layout
-UEFI system
+СистемаUEFI
 \end_layout
 
 \end_inset
