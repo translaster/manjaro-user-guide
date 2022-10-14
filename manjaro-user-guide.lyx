@@ -22,7 +22,7 @@ fixltx2e
 \maintain_unincluded_children false
 \language british
 \language_package default
-\inputencoding auto
+\inputencoding utf8
 \fontencoding global
 \font_roman "palatino" "default"
 \font_sans "helvet" "default"
@@ -42,7 +42,7 @@ fixltx2e
 \paperfontsize default
 \spacing single
 \use_hyperref true
-\pdf_title "Manjaro Linux User Guide"
+\pdf_title "Руководство пользователя Manjaro Linux"
 \pdf_author "Jonathon Fernyhough for The Manjaro Development Team"
 \pdf_subject "Manjaro Linux"
 \pdf_bookmarks true
@@ -1178,7 +1178,7 @@ status open
  LXDE, Deepin, Budgie, Mate и многие другие.
  Полный список доступен на сайте
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1195,41 +1195,37 @@ https://manjaro.org/download/#Community
 \end_layout
 
 \begin_layout Standard
-Every release of Manjaro is available for download, whether the current
- stable release or upcoming preview releases.
- When you visit the download page you will find a link to each of the four
- main editions , as well as a checksum file for each.
- A checksum can be used to check the integrity of the disc image file you
- download to make sure it hasn't been corrupted during the download.
- This will be covered in the next chapter.
+Каждый выпуск Manjaro доступен для загрузки, будь то текущий стабильный
+ выпуск или предстоящие предварительные выпуски.
+ На странице загрузки вы найдете ссылку на каждый из четырех основных выпусков,
+ а также файл контрольной суммы для каждого из них.
+ Контрольную сумму можно использовать для проверки целостности загружаемого
+ файла образа диска, чтобы убедиться, что он не был поврежден во время загрузки.
+ Об этом будет рассказано в следующей главе.
 \end_layout
 
 \begin_layout Description
-Stable
-\begin_inset space ~
-\end_inset
-
-releases of Manjaro are intended to be used by the general public, so this
- will be the appropriate choice for the majority of users.
- The current Manjaro release can always be downloaded from the 
+Stable выпуски Manjaro предназначены для использования широкой публикой,
+ поэтому для большинства пользователей это будет подходящий выбор.
+ Текущий релиз Manjaro всегда можно загрузить со 
 \begin_inset CommandInset href
 LatexCommand href
-name "Get Manjaro"
-target "https://manjaro.org/get-manjaro/"
+name "Manjaro Downloads"
+target "https://manjaro.org/download/"
 
 \end_inset
 
- page.
+ страницы.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
-https://manjaro.org/get-manjaro/
+https://manjaro.org/download/
 \end_layout
 
 \end_inset
@@ -1247,30 +1243,30 @@ Development
 \begin_inset space ~
 \end_inset
 
-releases of Manjaro give you a glimpse of what is to come soon in the stable
- release.
- Do keep in mind that it is not as solid as the stable release and should
- not be used on a production machine.
- It is mainly intended for testing purposes.
- The latest development release available can be downloaded from the 
+releases Manjaro дает вам представление о том, что вскоре появится в стабильном
+ релизе.
+ Имейте в виду, что она не так надежна, как стабильный релиз, и не должна
+ использоваться на рабочей машине.
+ Он предназначен в основном для тестирования.
+ Последний доступный релиз разработки можно загрузить со 
 \begin_inset CommandInset href
 LatexCommand href
 name "Manjaro Preview Releases"
-target "https://manjaro.org/manjaro-preview-releases/"
+target "https://forum.manjaro.org/c/announcements/releases/19"
 
 \end_inset
 
- page.
+ страницы.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
-https://forum.manjaro.org/tags/c/announcements/releases/100/preview
+https://forum.manjaro.org/c/announcements/releases/19
 \end_layout
 
 \end_inset
@@ -1314,8 +1310,8 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-Before burning your downloaded disc image (or using it as a virtual disc
- in VirtualBox
+Перед записью загруженного образа диска (или использованием его в качестве
+ виртуального диска в VirtualBox
 \begin_inset Foot
 status open
 
@@ -1335,16 +1331,16 @@ https://www.virtualbox.org/
 
 \end_inset
 
-) we strongly recommend that you first check that it hasn't been corrupted.
- The potential result of not checking first, especially if you want to install
- Manjaro as your main operating system, should be obvious.
- In the best case, the installation will fail.
- In the worst case a corrupted image will result in a corrupted installation.
+) мы настоятельно рекомендуем вам сначала проверить, не поврежден ли он.
+ Потенциальный результат отсутствия проверки, особенно если вы хотите установить
+ Manjaro в качестве основной операционной системы, должен быть очевиден.
+ В лучшем случае установка завершится неудачей.
+ В худшем случае поврежденный образ приведет к поврежденной установке.
 \end_layout
 
 \begin_layout Standard
-To verify the integrity of the disc image you have to download the appropriate
- checksum file, checksum files can be found at 
+Чтобы проверить целостность образа диска, необходимо загрузить соответствующий
+ файл контрольной суммы, файлы контрольных сумм можно найти по адресу
 \begin_inset Foot
 status open
 
@@ -1365,12 +1361,12 @@ https://osdn.net/projects/manjaro/storage/
 \end_inset
 
 .
- For example, the file
+ Например, файл 
 \series bold
- manjaro-xfce-19.0-200224-linux54.iso
+manjaro-xfce-19.0-200224-linux54.iso
 \series default
- contains the SHA-1 checksum hash for a preview realease of the Xfce disc
- image and will have content similar to this:
+ содержит хэш контрольной суммы SHA-1 для предварительного релиза образа
+ диска Xfce и будет иметь содержание, подобное этому:
 \end_layout
 
 \begin_layout LyX-Code
@@ -1382,49 +1378,32 @@ SHA-1
 \end_layout
 
 \begin_layout Standard
-SHA and others like MD5 are different types of hashing algorithms; the 
-\begin_inset Quotes eld
-\end_inset
-
-sha
-\begin_inset Quotes erd
-\end_inset
-
- part of the checksum file name stands for
-\series bold
- Secure Hash Algorithm
-\series default
-.
- These algorithms are used to generate a hash code unique to the disc image
- file.
- The checksum file itself is just a text document that contains hash codes
- that should match the code generated by the MD5 or SHA algorithms.
- Copies of the file can be checked to make sure they are exactly the same
- - if the file is changed in any way, either intentionally or by corruption,
- the code generated will be different.
+SHA и другие, такие как MD5, являются различными типами алгоритмов хэширования;
+ часть "sha" в названии файла контрольной суммы означает Secure Hash Algorithm.
+ Эти алгоритмы используются для генерации хэш-кода, уникального для файла
+ образа диска.
+ Сам файл контрольной суммы - это просто текстовый документ, содержащий
+ хэш-коды, которые должны совпадать с кодами, сгенерированными алгоритмами
+ MD5 или SHA.
+ Копии файла можно проверить, чтобы убедиться, что они абсолютно одинаковы
+ - если файл каким-либо образом изменен, намеренно или в результате повреждения,
+ сгенерированный код будет отличаться.
 \end_layout
 
 \begin_layout Standard
-Whilst MD5 is commonly used, SHA-1 and SHA-256 are newer and more secure
- and are beginning to replace MD5.
- For the purpose of checking the integrity of the downloaded file MD5 is
- 
-\begin_inset Quotes eld
-\end_inset
-
-good enough
-\begin_inset Quotes erd
-\end_inset
-
- but SHA-1 is a better solution.
- The checking process is the same for both algorithms.
- For more about hashing algorithms Wikipedia has lots of information.
+Хотя MD5 широко используется, SHA-1 и SHA-256 являются более новыми и более
+ безопасными и начинают заменять MD5.
+ Для целей проверки целостности загруженного файла MD5 "достаточно хорош",
+ но SHA-1 является лучшим решением.
+ Процесс проверки одинаков для обоих алгоритмов.
+ Для получения дополнительной информации об алгоритмах хэширования в Википедии
+ есть много информации.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
-status open
+status collapsed
 
 \begin_layout Plain Layout
 
@@ -1442,18 +1421,19 @@ https://en.wikipedia.org/wiki/Secure_Hash_Algorithm
 \end_layout
 
 \begin_layout Standard
-If the code generated from the disc image matches that contained in the
- checksum file, then the disc image file is fine.
- If the two codes don't match then it means that the disc image file has
- changed in some way, most likely due to being corrupted.
- You can think of it like someone using a password to identify who they
- are: if they provide the wrong password, then something is probably wrong.
+Если код, сгенерированный из образа диска, совпадает с кодом, содержащимся
+ в файле контрольной суммы, значит, файл образа диска в порядке.
+ Если эти два кода не совпадают, то это означает, что файл образа диска
+ каким-то образом изменился и, скорее всего, был поврежден.
+ Это можно сравнить с тем, как если бы кто-то использовал пароль для идентификац
+ии своей личности: если он сообщает неверный пароль, то, вероятно, что-то
+ не так.
 \end_layout
 
 \begin_layout Standard
-From this point on we'll assume you are using the file
+С этого момента мы будем считать, что вы используете файл 
 \series bold
- manjaro-xfce-19.0-200224-linux54.iso.sha1
+manjaro-xfce-19.0-200224-linux54.iso.sha1
 \series default
 .
 \end_layout
@@ -1467,21 +1447,21 @@ From this point on we'll assume you are using the file
 \end_layout
 
 \begin_layout Standard
-The program 
+Программа 
 \family typewriter
 sha1sum
 \family default
- can automatically compare the checksum of the disc image you downloaded
- against the value in the text file.
- The process should be very straightforward!
+ может автоматически сравнить контрольную сумму загруженного образа диска
+ со значением в текстовом файле.
+ Процесс должен быть очень простым!
 \end_layout
 
 \begin_layout Standard
-For this example, I first open a terminal and change to the directory where
- I downloaded the disc image file and checksum file, checksum files can
- be found at 
+Для этого примера я сначала открываю терминал и перехожу в каталог, в который
+ я скачал файл образа диска и файл контрольной суммы, файлы контрольной
+ суммы можно найти по адресу 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
@@ -1500,11 +1480,11 @@ https://osdn.net/projects/manjaro/storage/
 \end_inset
 
 .
- I use the command 
+ Я использую команду 
 \family typewriter
 ls
 \family default
- to check which files are present:
+, чтобы проверить, какие файлы присутствуют:
 \end_layout
 
 \begin_layout LyX-Code
@@ -1520,12 +1500,12 @@ manjaro-xfce-19.0-200224-linux54.iso.sha1  manjaro-xfce-19.0-200224-linux54.iso
 \end_layout
 
 \begin_layout Standard
-As you can see I have downloaded the 64-bit Xfce edition.
- Next, I run the 
+Как вы можете видеть, я загрузил 64-битную версию Xfce.
+ Далее я запускаю программу 
 \family typewriter
 sha1sum
 \family default
- program to check against the value in the checksum file:
+ для проверки значения в файле контрольной суммы:
 \end_layout
 
 \begin_layout LyX-Code
@@ -1533,13 +1513,13 @@ jonathon@box:~/download$ sha1sum -c manjaro-xfce-19.0-200224-linux54.iso.sha1
 \end_layout
 
 \begin_layout Standard
-The line below shows the result of the checks.
- In this case, it shows that 
+В строке ниже показан результат проверки.
+ В данном случае он показывает, что 
 \family typewriter
 sha1sum
 \family default
- has successfully verified the disc image I downloaded against the checksum
- value in the file.
+ успешно проверил образ диска, который я загрузил, на соответствие значению
+ контрольной суммы в файле.
 \end_layout
 
 \begin_layout LyX-Code
@@ -1547,7 +1527,7 @@ manjaro-xfce-19.0-200224-linux54.iso: OK
 \end_layout
 
 \begin_layout Standard
-If it failed, I'd need to download the image again...
+Если бы это не удалось, мне пришлось бы загрузить образ снова...
 \end_layout
 
 \begin_layout Subsection
@@ -1555,15 +1535,15 @@ If it failed, I'd need to download the image again...
 \end_layout
 
 \begin_layout Standard
-To manually check the integrity of your downloaded file, first open the
- downloaded
+Для ручной проверки целостности загруженного файла, сначала откройте загруженный
+ файл контрольной суммы 
 \series bold
- manjaro-xfce-19.0-200224-linux54.iso.sha1
+manjaro-xfce-19.0-200224-linux54.iso.sha1
 \series default
- checksum file using a text editor such as Gedit, checksum files can be
- found at 
+ с помощью текстового редактора, например Gedit, файлы контрольных сумм
+ можно найти по адресу 
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
@@ -1582,17 +1562,17 @@ https://osdn.net/projects/manjaro/storage/
 \end_inset
 
 .
- Once the checksum file has been opened, and the code is visible, open up
- your terminal and change to the directory where your downloaded disc image
- is stored.
+ После того как файл контрольной суммы будет открыт, и код будет виден,
+ откройте терминал и перейдите в каталог, где хранится загруженный образ
+ диска.
 \end_layout
 
 \begin_layout Standard
-For example, if your disc image file is located in a directory named
+Например, если файл образа диска находится в каталоге с именем 
 \family typewriter
- download
+download
 \family default
-, you would first change to that directory:
+, сначала перейдите в этот каталог:
 \end_layout
 
 \begin_layout LyX-Code
@@ -1600,7 +1580,7 @@ jonathon@box:~$ cd download
 \end_layout
 
 \begin_layout Standard
-Then you can generate an SHA-1 hash code for the disc image using:
+Затем вы должны сгенерировать хэш-код SHA-1 для образа диска, используя:
 \end_layout
 
 \begin_layout LyX-Code
@@ -1612,9 +1592,9 @@ manjaro-xfce-19.0-200224-linux54.iso
 \end_layout
 
 \begin_layout Standard
-This command generates a hash code for the 64-bit Manjaro Xfce disc image
- which can then be manually compared to the code contained in the checksum
- file.
+Эта команда генерирует хэш-код для 64-битного образа диска Manjaro Xfce,
+ который затем можно вручную сравнить с кодом, содержащимся в файле контрольной
+ суммы.
 \end_layout
 
 \begin_layout Section
@@ -1622,16 +1602,17 @@ This command generates a hash code for the 64-bit Manjaro Xfce disc image
 \end_layout
 
 \begin_layout Standard
-Unlike Linux, Microsoft Windows does not have any suitable built-in tools
- so you will need to download and install a checksum utility application.
- A web search will turn up several examples of free software, or you can
- look on the
+В отличие от Linux, в Microsoft Windows нет подходящих встроенных инструментов,
+ поэтому вам придется загрузить и установить приложение для проверки контрольной
+ суммы.
+ Поиск в Интернете найдет несколько примеров бесплатного программного обеспечени
+я, или вы можете посмотреть на сайте 
 \series bold
- Download.com
+Download.com
 \series default
- website.
+.
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
@@ -1649,13 +1630,14 @@ https://download.cnet.com/
 
 \end_inset
 
- Another free checksum utility which has positive reviews is
+ Еще одна бесплатная утилита для проверки контрольных сумм, имеющая положительны
+е отзывы, - 
 \series bold
- Raymond's MD5 & SHA Checksum Utility
+Raymond's MD5 & SHA Checksum Utility
 \series default
 .
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
@@ -1673,7 +1655,7 @@ https://raylin.wordpress.com/downloads/md5-sha-1-checksum-utility/
 
 \end_inset
 
- This is the program we will use in the following example.
+ Именно эту программу мы будем использовать в следующем примере.
 \end_layout
 
 \begin_layout Standard
@@ -1698,8 +1680,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Verifying the checksum in Microsoft Windows using Raymond's MD5 & SHA Checksum
- Utility.
+Проверка контрольной суммы в Microsoft Windows с помощью Raymond's MD5 &
+ SHA Checksum Utility.
 \end_layout
 
 \end_inset
@@ -1713,45 +1695,34 @@ Verifying the checksum in Microsoft Windows using Raymond's MD5 & SHA Checksum
 \end_layout
 
 \begin_layout Standard
-Once you have downloaded the checksum utility, the checking process is very
- straightforward.
- Simply
+После загрузки утилиты проверки контрольной суммы процесс проверки очень
+ прост.
+ Просто перейдите к загруженному образу диска, выберите его и нажмите кнопку
+ 
 \series bold
- Browse
-\series default
- to the downloaded disc image, select it, and click
-\series bold
- Open
+Open
 \series default
 .
- The program will then calculate the checksums for the disc image file.
-\begin_inset Flex Marginnote
-status open
-
-\begin_layout Plain Layout
-To speed up the process it's probably a good idea to deselect the hashes
- you are not verifying.
-\end_layout
-
-\end_inset
-
- To verify if the checksum is correct, open the
+ Программа вычислит контрольные суммы для файла образа диска.
+ Для ускорения процесса, вероятно, стоит отменить выбор хэшей, которые вы
+ не проверяете.
+ Чтобы проверить правильность контрольной суммы, откройте файл 
 \series bold
- manjaro-xfce-19.0-200224-linux54.iso.sha1
+manjaro-xfce-19.0-200224-linux54.iso.sha1
 \series default
- file in a text editor such as Notepad, copy the checksum for the disc image
- file you have downloaded, and paste it into the 
+ в текстовом редакторе, например Блокноте, скопируйте контрольную сумму
+ загруженного файла образа диска и вставьте ее в поле проверки 
 \series bold
 Hash
 \series default
- verification box.
- Then click
+.
+ Затем нажмите кнопку 
 \series bold
- Verify
+Verify
 \series default
 .
- If there are no problems with the disc image file the program will inform
- you that the hash matched.
+ Если с файлом образа диска нет проблем, программа сообщит вам, что хэш
+ совпал.
 \end_layout
 
 \begin_layout Chapter
@@ -1785,19 +1756,20 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-A disc image is not a copy-and-paste duplication of files: it's a bit-for-bit
- copy of the raw data that makes up the files and folders of that disc.
- This is why just copying a disc image file to a disc (or USB flash drive)
- to begin installing won't work: you'll need to use a disc burning or image
- writing application to translate that raw data into the files and folders.
+Образ диска - это не копирование и вставка копий файлов: это побитовая копия
+ исходных данных, которые составляют файлы и папки диска.
+ Именно поэтому просто скопировать файл образа диска на диск (или флэш-накопител
+ь USB) для начала установки не получится: необходимо использовать программу
+ для записи дисков или записи образов, чтобы преобразовать исходные данные
+ в файлы и папки.
 \begin_inset Flex Marginnote
 status open
 
 \begin_layout Plain Layout
-There is an exception to this rule.
- If you intend on installing Manjaro in a virtual machine environment using
- Oracle's VirtualBox, then there will be no need to burn the image as VirtualBox
- will be able to read from the disc image file directly as a virtual disc.
+Из этого правила есть исключение.
+ Если вы планируете установить Manjaro в среде виртуальной машины с помощью
+ VirtualBox от Oracle, то записывать образ не нужно, так как VirtualBox
+ сможет читать из файла образа диска непосредственно виртуальный диск.
 \end_layout
 
 \end_inset
@@ -1806,17 +1778,19 @@ There is an exception to this rule.
 \end_layout
 
 \begin_layout Standard
-Once converted, the files can be used to run Manjaro in Live-CD mode without
- having to install it to your system, and/or install Manjaro on your system.
- It's important to note Manjaro will not have full functionality when run
- in Live-CD mode.
- For example, you will not be able to save any changes to the system.
+После конвертирования эти файлы можно использовать для запуска Manjaro в
+ режиме Live-CD без необходимости его установки на вашу систему и/или установки
+ Manjaro на вашу систему.
+ Важно отметить, что Manjaro не будет обладать полной функциональностью
+ при запуске в режиме Live-CD.
+ Например, вы не сможете сохранить какие-либо изменения в системе.
 \end_layout
 
 \begin_layout Standard
-Due to the amount of software included on the full edition disc images you
- may need to use a DVD instead of a CD.
- Check the following table as a guide if you're not sure:
+Из-за большого количества программного обеспечения, включенного в образы
+ дисков полного издания, вам может понадобиться использовать DVD вместо
+ CD.
+ Если вы не уверены, сверьтесь со следующей таблицей:
 \end_layout
 
 \begin_layout Standard
@@ -2042,7 +2016,7 @@ CD
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Manjaro Edition disc image file sizes
+Размеры файлов образов диска редакций Manjaro
 \end_layout
 
 \end_inset
@@ -2056,29 +2030,30 @@ Manjaro Edition disc image file sizes
 \end_layout
 
 \begin_layout Standard
-Many people routinely use a DVD rather than a CD even for the smallest disc
- image files.
- Not only is a DVD faster to burn but they allow higher data access rates
- so the Live-CD loads faster and the installation completes sooner.
+Многие люди регулярно используют DVD, а не CD даже для самых маленьких файлов
+ образов дисков.
+ DVD не только быстрее записывается, но и обеспечивает более высокую скорость
+ доступа к данным, поэтому Live-CD загружается быстрее и установка завершается
+ быстрее.
 \end_layout
 
 \begin_layout Standard
-However, with the increasing capacity and decreasing cost of USB flash media
+Однако с увеличением емкости и снижением стоимости флэш-носителей USB
 \begin_inset Flex Marginnote
 status open
 
 \begin_layout Plain Layout
-If your system will boot from a USB device, and you have one of sufficient
- capacity that you can erase, we recommend the use of a USB flash drive
- over traditional CD/DVD media.
+Если ваша система будет загружаться с USB-устройства, и у вас есть устройство
+ достаточной емкости, которое можно стереть, мы рекомендуем использовать
+ флэш-накопитель USB вместо традиционных носителей CD/DVD.
 \end_layout
 
 \end_inset
 
- this presents an even more attractive method than the traditional burning
- process; it is far faster and more flexible than using optical media.
- Both CD/DVD burning and USB flash media installation methods are covered
- in this guide.
+ этот метод становится еще более привлекательным, чем традиционный процесс
+ записи; он намного быстрее и гибче, чем использование оптических носителей.
+ В данном руководстве рассматриваются как методы записи на CD/DVD, так и
+ установки на USB-носитель.
 \end_layout
 
 \begin_layout Section
@@ -2096,37 +2071,38 @@ Burning to a CD/DVD
 \end_layout
 
 \begin_layout Standard
-If not already installed, several different software burning applications
- should be available for installation from your distribution's Software
- Center / Software Manager / Package Manager / repositories.
- Popular burners include
+Если они еще не установлены, несколько различных приложений для записи программ
+ должны быть доступны для установки из Software Center / Software Manager
+ / Package Manager / репозиториев вашего дистрибутива.
+ Популярные программы для записи включают 
 \series bold
- XFBurn
+XFBurn
 \series default
-,
+, 
 \series bold
- K3b
+K3b
 \series default
-, and
+ и 
 \series bold
- Brasero
+Brasero
 \series default
 .
 \begin_inset Flex Marginnote
-status open
+status collapsed
 
 \begin_layout Plain Layout
-Xfce environments tend to include XFBurn.
- KDE environments tend to include K3b.
- GNOME environments tend to include Brasero.
+В средах Xfce обычно используется XFBurn.
+ Среды KDE обычно включают K3b.
+ В окружениях GNOME обычно используется Brasero.
 \end_layout
 
 \end_inset
 
- Which one you choose is entirely down to personal choice, though your operating
- system will usually install one suitable for your desktop environment.
- To simplify things a little, the following steps for burning your downloaded
- Manjaro disc image use Brasero.
+ Какой из них выбрать, зависит только от вашего личного выбора, хотя операционна
+я система обычно устанавливает тот, который подходит для вашей среды рабочего
+ стола.
+ Чтобы немного упростить ситуацию, в следующих шагах для записи загруженного
+ образа диска Manjaro используется Brasero.
 \end_layout
 
 \begin_layout Subsection
@@ -2134,16 +2110,16 @@ Xfce environments tend to include XFBurn.
 \end_layout
 
 \begin_layout Enumerate
-Insert a blank CD/DVD.
+Вставьте чистый CD/DVD.
 \begin_inset Flex Marginnote
-status open
+status collapsed
 
 \begin_layout Plain Layout
-It's a good idea to use a rewriteable disc (e.g.
- CD-RW or DVD-RW).
- Although slightly more expensive individually than a write-once disc you
- can reuse the disc again and again, for example when the next version of
- Manjaro is released!
+Хорошей идеей является использование перезаписываемого диска (например,
+ CD-RW или DVD-RW).
+ Хотя по отдельности он немного дороже, чем диск с возможностью записи один
+ раз, вы сможете использовать его снова и снова, например, когда выйдет
+ следующая версия Manjaro!
 \end_layout
 
 \end_inset
@@ -2152,82 +2128,82 @@ It's a good idea to use a rewriteable disc (e.g.
 \end_layout
 
 \begin_layout Enumerate
-Start the
+2.
+ Запустите программу для прожига 
 \series bold
- Brasero
+Brasero
 \series default
- software burner.
+.
 \end_layout
 
 \begin_layout Enumerate
-Click the
+Нажмите кнопку
 \series bold
  Burn Image - Burn an existing CD/DVD image to disc
 \series default
- button to open the
+ чтобы открыть окно
 \series bold
  Image Burning Setup
 \series default
- window.
+.
 \end_layout
 
 \begin_layout Enumerate
-Click the button beneath the title
+Нажмите кнопку с названием 
 \series bold
- Select a disc image to write
+Select a disc image to write
 \series default
- to open up your file manager.
- Locate and double-click the downloaded disc image file to load it.
- Upon automatically returning to the
+, чтобы открыть файловый менеджер.
+ Найдите и дважды щелкните загруженный файл образа диска, чтобы загрузить
+ его.
+ После автоматического возврата в окно 
 \series bold
- Image Burning Setup
+Image Burning Setup
 \series default
- window, note that the disc image file is now listed as the disc image to
- write.
+ обратите внимание, что файл образа диска теперь указан как образ диска
+ для записи.
 \end_layout
 
 \begin_layout Enumerate
-The blank CD/DVD you inserted should be automatically listed underneath
- the title
+Вставленный вами чистый CD/DVD должен автоматически отобразиться в списке
+ под заголовком 
 \series bold
- Select a disc to write to
+Select a disc to write to
 \series default
 .
- If not, click the button to select it manually.
+ Если это не так, нажмите кнопку, чтобы выбрать его вручную.
 \end_layout
 
 \begin_layout Enumerate
-Click the
+Нажмите кнопку 
 \series bold
- properties
+properties
 \series default
- button to open the properties window, and then click the button beneath
- the title
+, чтобы открыть окно свойств, а затем нажмите кнопку под заголовком 
 \series bold
- Burning Speed
+Burning Speed
 \series default
 .
- We strongly recommend you select the slowest speed available.
- Once selected, click the 
+ Мы настоятельно рекомендуем выбрать самую низкую из доступных скоростей.
+ После выбора нажмите кнопку 
 \series bold
 Close
 \series default
- button.
+.
 \begin_inset Flex Marginnote
 status open
 
 \begin_layout Plain Layout
-We strongly recommend you select the slowest speed available when burning
- to disc in order minimise the possibility of corruption during the burning
- process.
+Мы настоятельно рекомендуем вам выбрать самую низкую скорость записи на
+ диск, чтобы свести к минимуму возможность повреждения в процессе записи.
 \end_layout
 
 \begin_layout Plain Layout
-It's also a good idea to avoid using any applications which make intensive
- use of system resources while burning, and in particular avoid heavy disc
- access.
- If the burner software can't read the disc image file quickly enough the
- burning process can be interrupted.
+Также рекомендуется избегать использования приложений, интенсивно использующих
+ системные ресурсы во время записи, и, в частности, избегать интенсивного
+ обращения к диску.
+ Если программа прожига не сможет достаточно быстро прочитать файл образа
+ диска, процесс записи может быть прерван.
 \end_layout
 
 \end_inset
@@ -2236,12 +2212,12 @@ It's also a good idea to avoid using any applications which make intensive
 \end_layout
 
 \begin_layout Enumerate
-Click the
+Нажмите кнопку 
 \series bold
- Burn
+Burn
 \series default
- button to start the burning process.
- If necessary, follow any on-screen instructions provided.
+ (Прожиг), чтобы начать процесс записи.
+ При необходимости следуйте инструкциям на экране.
 \end_layout
 
 \begin_layout Section
@@ -2249,10 +2225,10 @@ Click the
 \end_layout
 
 \begin_layout Standard
-Newer versions of Microsoft Windows (Windows 7 and later) include a disc
- image burner.
- If you do not have a newer version of Microsoft Windows you will need to
- download one of the many free disc burning software utilities.
+Новые версии Microsoft Windows (Windows 7 и более поздние) включают в себя
+ программу записи образов дисков.
+ Если у вас нет более новой версии Microsoft Windows, вам придется загрузить
+ одну из многочисленных бесплатных программ для записи дисков.
 \end_layout
 
 \begin_layout Subsection
@@ -2260,24 +2236,24 @@ Newer versions of Microsoft Windows (Windows 7 and later) include a disc
 \end_layout
 
 \begin_layout Standard
-Right-clicking on the disc image file and selecting
+Щелчок правой кнопкой мыши на файле образа диска и выбор пункта 
 \series bold
- Burn disc image
+Burn disc image
 \series default
- will start the
+ запускает программу 
 \series bold
- Windows Disc Image Burner
+Windows Disc Image Burner
 \series default
- program.
- This makes the process of burning to a disc very straightforward:
+.
+ Это делает процесс записи на диск очень простым:
 \end_layout
 
 \begin_layout Enumerate
-Insert a blank CD/DVD into your disc drive.
+Вставьте чистый CD/DVD в дисковод.
 \end_layout
 
 \begin_layout Enumerate
-Start
+Запустите
 \series bold
  Windows Disc Image Burner
 \series default
@@ -2285,15 +2261,15 @@ Start
 \end_layout
 
 \begin_layout Enumerate
-Select your CD/DVD drive in the 
+Выберите ваш привод CD/DVD в меню 
 \series bold
 Disc burner
 \series default
- menu.
+.
 \end_layout
 
 \begin_layout Enumerate
-Click
+Кликните
 \series bold
  Burn
 \series default
@@ -2321,7 +2297,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Windows Disc Image Burner in Microsoft Windows 10
+Windows Disc Image Burner в Microsoft Windows 10
 \end_layout
 
 \end_inset
@@ -2339,11 +2315,11 @@ Windows Disc Image Burner in Microsoft Windows 10
 \end_layout
 
 \begin_layout Standard
-For versions of Microsoft Windows earlier than Windows 7 (e.g.
- Windows XP) you may need to download and install third-party disc burning
- software.
- There are many free examples available that will be found by a web search,
- but here are some of the most popular:
+Для версий Microsoft Windows более ранних, чем Windows 7 (например, Windows
+ XP), вам может потребоваться загрузить и установить программное обеспечение
+ для записи дисков сторонних производителей.
+ Существует множество бесплатных примеров, которые можно найти с помощью
+ поиска в Интернете, но вот некоторые из наиболее популярных:
 \end_layout
 
 \begin_layout Standard
@@ -2366,7 +2342,7 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-Name
+Название
 \end_layout
 
 \end_inset
@@ -2377,7 +2353,7 @@ Name
 \begin_layout Plain Layout
 
 \series bold
-Website
+Сайт
 \end_layout
 
 \end_inset
@@ -2388,7 +2364,7 @@ Website
 \begin_layout Plain Layout
 
 \series bold
-Video tutorial
+Видеоруководство
 \end_layout
 
 \end_inset
@@ -2546,7 +2522,7 @@ http://infrarecorder.org/
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Third-party disc burning software for Microsoft Windows
+Программы для записи дисков от сторонних производителей для Microsoft Windows
 \end_layout
 
 \end_inset
@@ -2560,12 +2536,12 @@ Third-party disc burning software for Microsoft Windows
 \end_layout
 
 \begin_layout Standard
-The burning process for each of these applications is similar, with small
- differences in user interface.
- The websites listed above will provide information about features and screensho
-ts of the applications themselves.
- Of course, it might also be worthwhile to take the time to read around
- and choose one for yourself!
+Процесс записи для каждого из этих приложений схож, с небольшими различиями
+ в пользовательском интерфейсе.
+ На перечисленных выше веб-сайтах вы найдете информацию о возможностях и
+ скриншоты самих приложений.
+ Конечно, возможно, стоит потратить время на то, чтобы ознакомиться и выбрать
+ одно из них для себя!
 \end_layout
 
 \begin_layout Standard
@@ -2590,12 +2566,12 @@ USB flash drive
 \end_layout
 
 \begin_layout Standard
-To take advantage of the faster access times and much quieter nature of
- a USB flash drive, there are a number of methods of writing the disc image
- file.
- One of the easiest is to use
+Чтобы воспользоваться преимуществами более быстрого доступа и более тихого
+ характера, такого как USB-флэш-накопитель, существует несколько методов
+ записи файла образа диска.
+ Одним из самых простых является использование 
 \series bold
- SUSE Studio Imagewriter
+SUSE Studio Imagewriter
 \series default
 .
 \begin_inset Float marginfigure
@@ -2649,49 +2625,45 @@ https://en.opensuse.org/SDB:Live_USB_stick
 \begin_layout Standard
 
 \emph on
-SUSE Studio Imagewriter
+SUSE Studio Imagewriter 
 \emph default
- should be available for installation from your distribution's Software
- Center / Software Manager / Package Manager / repositories.
- Once 
+должен быть доступен для установки из Центра програм / Менеджера приложений
+ / Менеджера пакетов / репозиториев вашего дистрибутива.
+ После загрузки и установки 
 \emph on
 SUSE Studio Imagewriter
 \emph default
- has been downloaded and installed, ensure that your USB flash drive is
- plugged in before starting the application.
+ убедитесь, что ваш USB-накопитель подключен, прежде чем запускать приложение.
 \end_layout
 
 \begin_layout Standard
-The process of using 
+Процесс использования 
 \emph on
 SUSE Studio Imagewriter
 \emph default
- is very straightforward:
+ очень прост:
 \end_layout
 
 \begin_layout Enumerate
-Click on the centre icon.
+Нажмите на центральную иконку.
 \end_layout
 
 \begin_layout Enumerate
-Navigate to where you downloaded the disc image file, and select it.
+Перейдите к месту, куда вы загрузили файл образа диска, и выберите его.
 \end_layout
 
 \begin_layout Enumerate
-Ensure that your USB flash drive has been selected from the drop-down menu.
+Убедитесь, что в выпадающем меню выбран ваш USB-накопитель.
 \end_layout
 
 \begin_layout Enumerate
-Click on the
-\series bold
- Write
-\series default
- button.
+Нажмите на кнопку Write.
 \end_layout
 
 \begin_layout Enumerate
-Once it has finished, reboot your system, making sure to select the USB
- flash drive as the boot device in the BIOS menu (or its UEFI equivalent).
+После завершения перезагрузите систему, убедившись, что в меню BIOS (или
+ его эквиваленте в UEFI) в качестве загрузочного устройства выбран USB-накопител
+ь.
 \end_layout
 
 \begin_layout Subsection
@@ -2699,21 +2671,18 @@ Once it has finished, reboot your system, making sure to select the USB
 \end_layout
 
 \begin_layout Standard
-If you don't want to install extra software, and you are comfortable using
- the command line, there's an even easier way of writing a disc image to
- a USB device.
+Если вы не хотите устанавливать дополнительное программное обеспечение и
+ вам удобно пользоваться командной строкой, существует еще более простой
+ способ записи образа диска на USB-устройство.
 \end_layout
 
 \begin_layout Enumerate
-Connect the USB flash drive to your PC, open a terminal and 
-\family typewriter
-cd
-\family default
- to where you downloaded the disc image.
+Подключите USB-накопитель к компьютеру, откройте терминал и перейдите по
+ ссылке cd туда, куда вы скачали образ диска.
 \end_layout
 
 \begin_layout Enumerate
-Check the device identifier with:
+Проверьте идентификатор устройства с помощью:
 \family typewriter
  sudo fdisk -l
 \family default
@@ -2721,14 +2690,14 @@ Check the device identifier with:
 \end_layout
 
 \begin_layout Enumerate
-Write the image with:
+Запишите образ с помощью:
 \family typewriter
 
 \begin_inset Newline newline
 \end_inset
 
-sudo dd if=manjaro-xfce-19.0-200224-linux54.iso of=/dev/(Device identifier
- from above) bs=4M
+sudo dd if=manjaro-xfce-19.0-200224-linux54.iso of=/dev/(Полученный выше идентифик
+атор устройства) bs=4M
 \begin_inset Newline newline
 \end_inset
 
@@ -2738,7 +2707,7 @@ sudo dd if=manjaro-xfce-19.0-200224-linux54.iso of=/dev/(Device identifier
 
 
 \family default
-My USB drive is at /dev/sdc so I would use:
+Мой USB-накопитель был по адресу /dev/sdc поэтому я использовал:
 \family typewriter
 
 \begin_inset Newline newline
@@ -2754,7 +2723,7 @@ sudo dd if=manjaro-xfce-19.0-200224-linux54.iso of=/dev/sdc bs=4M
 
 
 \family default
-To view how the writing process progresses, use the option 
+Для просмотра процесса записи используйте опцию 
 \family typewriter
 status=progress:
 \begin_inset Newline newline
@@ -2764,8 +2733,9 @@ sudo dd if=manjaro-xfce-19.0-200224-linux54.iso of=/dev/sdc bs=4M status=progres
 \end_layout
 
 \begin_layout Enumerate
-Once completed reboot your system and boot from the USB drive by selecting
- it as the boot device in the BIOS menu (or its UEFI equivalent).
+После завершения перезагрузите свою систему и загрузитесь с USB-накопителя,
+ выбрав его в качестве загрузочного устройства в меню BIOS (или его UEFI
+ эквивалента).
 \end_layout
 
 \begin_layout Standard
@@ -2784,9 +2754,10 @@ Rufus
 \end_layout
 
 \begin_layout Standard
-For Windows users using USB media, Rufus
+Для пользователей Windows, использующих USB-носители, настоятельно рекомендуется
+ Rufus
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 \begin_inset Flex URL
@@ -2794,7 +2765,7 @@ status open
 
 \begin_layout Plain Layout
 
-https://rufus.akeo.ie/
+https://rufus.ie/ru/
 \end_layout
 
 \end_inset
@@ -2804,33 +2775,33 @@ https://rufus.akeo.ie/
 
 \end_inset
 
- is highly recommended.
+.
 \end_layout
 
 \begin_layout Standard
-Select the USB key to be used in the 
+Выберите используемый USB-носитель в меню 
 \emph on
-Device
+Device.
+
 \emph default
- menu.
- Then, on the line beginning with 
+ Затем в строке, начинающейся с 
 \emph on
 Boot selection
 \emph default
-, click on 
+, нажмите 
 \emph on
 Select
 \emph default
- to select your downloaded disc image, and then 
+ для выбора загруженного образа диска и нажмите 
 \emph on
 Start
 \emph default
 .
- After doing so, select 
+ После этого в появившемся окне выберите 
 \series bold
 DD Image
 \series default
- in the window that appears.
+.
 \end_layout
 
 \begin_layout Standard
@@ -2885,7 +2856,7 @@ status open
 \begin_inset Text
 
 \begin_layout Plain Layout
-Rufus with recommended settings
+Rufus с рекомендуемыми настройками
 \end_layout
 
 \end_inset
@@ -2908,7 +2879,7 @@ Etcher
 \end_layout
 
 \begin_layout Standard
-Another recommended piece of software is Etcher 
+Ещё одно рекомендуемое приложение - Etcher 
 \begin_inset Foot
 status open
 
@@ -2918,7 +2889,7 @@ status open
 
 \begin_layout Plain Layout
 
-https://etcher.io/
+https://www.balena.io/etcher/
 \end_layout
 
 \end_inset
@@ -2929,9 +2900,9 @@ https://etcher.io/
 \end_inset
 
 .
- It is incredibly simple to use.
- All you have to do is select the disc image, the USB drive, and start flashing
- the image!
+ Оно невероятно простое в использовании.
+ Всё, что нужно вам сделать - это выбрать образ диска, USB-накопитель и
+ начать запись образа!
 \begin_inset Float marginfigure
 wide false
 sideways false
