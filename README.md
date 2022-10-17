@@ -24,48 +24,47 @@
 
 ## Генерация
 
-Install ascii doc with:
+Установите ascii doc с помощью:
 ```
 pacman -S asciidoc
 ```
-then
+затем
 ```
 gem install Ascii85 -v 1.1.0
 ```
 ### To Generate latex source
-You can open terminal inside of asciidoc folder then
+Вы можете открыть терминал внутри папки asciidoc, затем
 ```
-asciidoctor-latex manjaro-user-guide-2020-de-6.adoc
+asciidoctor-latex manjaro-user-guide-2020-ru-6.adoc
 ```
-or
+или
 ```
-a2x -a lang=de -dbook  -v manjaro-user-guide-2020-de*.adoc
+a2x -a lang=de -dbook  -v manjaro-user-guide-2020-ru*.adoc
 ```
-### To generate pdf
+### Для создания pdf
 ```
-asciidoctor-pdf -dbook -a lang=de -vv manjaro-user-guide-2020-de-6.adoc
+asciidoctor-pdf -dbook -a lang=ru -vv manjaro-user-guide-2020-ru-6.adoc
 ```
-or
+или
 ```
-a2x -v -I manjaro-user-guide-2020-de-6.a2x
+a2x -v -I manjaro-user-guide-2020-ru-6.a2x
 ```
+
 ## Генерация (OLD)
 
 Чтобы сгенерировать PDF из командной строки, а не экспортировать из LyX, вы можете использовать следующее:
 
     lyx --export pdflatex manjaro-user-guide.lyx
     pdflatex manjaro-user-guide
-    texindy --language english manjaro-user-guide.idx
+    texindy --language russian manjaro-user-guide.idx
     pdflatex manjaro-user-guide
     pdflatex manjaro-user-guide
     gs -dNOPAUSE -dBATCH -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dPDFSETTINGS=/printer -sOutputFile=manjaro-user-guide-printer.pdf manjaro-user-guide.pdf
 
 Да ``pdflatex`` требует многократного запуска.
 
-
 ## Соавторы
 
 K. Günther(перевел последний английский исходный код в asciidoc и сделал перевод. Также он добавил некоторые улучшения и обновления и сделал немецкую версию руководства).
-
 
 Не стесняйтесь разрабатывать стиль для более красивого вывода!
