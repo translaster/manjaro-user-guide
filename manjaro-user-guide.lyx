@@ -8501,12 +8501,13 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-Once you have logged in you will be presented with the Manjaro desktop.
- The Manjaro Hello welcome screen will load automatically and this gives
- you some useful links to documentation, ways to get help and support from
- the Manjaro community, and some ways you can get involved with the project.
- Remember that Manjaro is free and open-source software: it relies on contributi
-ons from its user and developer community!
+После входа в систему перед вами откроется рабочий стол Manjaro.
+ Автоматически загрузится экран приветствия Manjaro Hello, на котором вы
+ найдете несколько полезных ссылок на документацию, способы получения помощи
+ и поддержки от сообщества Manjaro, а также способы участия в проекте.
+ Помните, что Manjaro - это бесплатное программное обеспечение с открытым
+ исходным кодом: оно опирается на вклад сообщества пользователей и разработчиков
+!
 \end_layout
 
 \begin_layout Standard
@@ -8529,7 +8530,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The Manjaro Xfce Desktop with Manjaro Hello.
+Рабочий стол Manjaro Xfce с Manjaro Hello.
 \end_layout
 
 \end_inset
@@ -8543,13 +8544,13 @@ The Manjaro Xfce Desktop with Manjaro Hello.
 \end_layout
 
 \begin_layout Standard
-If you don't want the welcome screen to load each time you log in, just
- set the
+Если вы не хотите, чтобы экран приветствия загружался каждый раз при входе
+ в систему, просто отключите опцию 
 \series bold
- Launch at start
+Запускать при запуске
 \series default
- option off at the bottom right of the window.
- Don't worry: you can always find it again in the applications menu.
+ в правом нижнем углу окна.
+ Не беспокойтесь: вы всегда сможете найти его снова в меню приложений.
 \end_layout
 
 \begin_layout Standard
@@ -8572,7 +8573,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The Manjaro Xfce Desktop
+Рабочий стол Manjaro
 \end_layout
 
 \end_inset
@@ -8586,47 +8587,31 @@ The Manjaro Xfce Desktop
 \end_layout
 
 \begin_layout Standard
-Let's now take a look at your new operating system! A notification area
- can be found on the top right, where system messages are displayed.
- At the top left are the icons currently displayed on the desktop.
- At the bottom left is the applications menu, where installed applications
- can be found and launched.
- Next to it are buttons of opened windows.
- A workspace switcher is then located to the right.
- Workspaces are desktops placed next to each other.
- Then, various system indicators such as battery power, updates, internet
- connection and volume can be found.
- Finally, at the bottom right are a clock with a calendar as well as a shutdown
- button.
+Давайте теперь посмотрим на вашу новую операционную систему! В правом верхнем
+ углу находится область уведомлений, где отображаются системные сообщения.
+ Слева вверху находятся значки приложений, которые в данный момент располагаются
+ на рабочем столе.
+ Внизу слева находится меню приложений, из которой можно найти и запустить
+ установленные приложения.
+ Рядом с ним находятся кнопки открытых окон.
+ Справа расположен переключатель рабочих пространств.
+ Рабочие пространства - это рабочие столы, расположенные рядом друг с другом.
+ Далее находятся различные системные индикаторы, такие как заряд батареи,
+ обновления, подключение к Интернету и громкость.
+ Наконец, внизу справа находятся часы с календарем, а также кнопка выключения.
 \end_layout
 
 \begin_layout Standard
-The applications menu is the easiest way of starting the software programs
- that are installed on your Manjaro system.
- The icon for this is at the bottom left corner of the screen.
- Go ahead and click on it now!
+Меню приложений - это самый простой способ запуска программ, установленных
+ в вашей системе Manjaro.
+ Иконка для этого находится в левом нижнем углу экрана.
+ Перейдите и нажмите на нее сейчас!
 \begin_inset Flex Marginnote
-status collapsed
+status open
 
 \begin_layout Plain Layout
-You can also press the
-\begin_inset Quotes eld
-\end_inset
-
-Windows
-\begin_inset Quotes erd
-\end_inset
-
- or
-\begin_inset Quotes eld
-\end_inset
-
-Super
-\begin_inset Quotes erd
-\end_inset
-
- key on your keyboard.
- Handy!
+Вы также можете нажать клавишу "Windows" или "Super" на клавиатуре.
+ Удобно!
 \end_layout
 
 \end_inset
@@ -8654,8 +8639,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Software applications that are installed will be displayed in the applications
- menu.
+Установленные приложения будут отображаться в меню приложений.
 \end_layout
 
 \end_inset
@@ -8669,13 +8653,13 @@ Software applications that are installed will be displayed in the applications
 \end_layout
 
 \begin_layout Standard
-You can see that the five main software applications have an item in the
+Вы можете видеть что пять основных прилоений имеют свой пункт в меню 
 \begin_inset Quotes eld
 \end_inset
 
-Favourites
+Избранное
 \begin_inset Index idx
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Favourites
@@ -8687,10 +8671,11 @@ Favourites
 \begin_inset Quotes erd
 \end_inset
 
- menu.
- This allows rapid access to software you most often use.
- To add or remove an item from the Favourites menu, just right-click on
- it and select the option you want.
+.
+ Это позволяет быстро получить доступ к программам, которые вы чаще всего
+ используете.
+ Чтобы добавить или удалить пункт из меню "Избранное", просто щелкните по
+ нему правой кнопкой мыши и выберите нужную опцию.
 \end_layout
 
 \begin_layout Standard
@@ -8710,7 +8695,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Add to Favourites
+Добавление в Избранное
 \end_layout
 
 \end_inset
@@ -8740,7 +8725,7 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Remove from Favourites
+Удаление из Избранное
 \end_layout
 
 \end_inset
@@ -8754,8 +8739,8 @@ Remove from Favourites
 \end_layout
 
 \begin_layout Standard
-For now, let's look in turn at these five applications to give an idea of
- what awaits you!
+А пока давайте по очереди рассмотрим эти пять приложений, чтобы дать представлен
+ие о том, что вас ждет!
 \end_layout
 
 \begin_layout Standard
@@ -8801,18 +8786,19 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-Terminal Emulator
+Эмулятор терминала
 \series default
-, or terminal, allows you to perform text-based commands.
- Although it initially seems unfriendly it is incredibly powerful and allows
- access to commands that are difficult to accomplish with a graphical interface.
- In this example, I have listed (
+ или терминал позволяет выполнять текстовые команды.
+ Хотя поначалу он кажется недружелюбным, он невероятно мощный и позволяет
+ получить доступ к командам, которые трудно выполнить с помощью графического
+ интерфейса.
+ В этом примере я перечислил (командой
 \family typewriter
-ls
+ ls
 \family default
-) the files in my home directory.
+) файлы в моем домашнем каталоге.
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -8827,10 +8813,10 @@ protect
 \begin_inset Newline newline
 \end_inset
 
- Learning how to use the terminal is not needed for running Manjaro.
- It's highly recommended, however; check out sites like
+Для работы в Manjaro изучение терминала не обязательно.
+ Тем не менее, это настоятельно рекомендуется; посмотрите сайты типа
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -8843,7 +8829,7 @@ protect
 
 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -8901,11 +8887,11 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-File Manager
+Файловый менеджер
 \series default
- is a graphical interface for managing your documents and directories.
- Most file managers work in a similar way; if you've used another, you can
- use this one!
+ - это графический интерфейс для управления документами и каталогами.
+ Большинство файловых менеджеров работают аналогичным образом; если вы и
+ пользовались другим, то без проблем сможете использовать этот!
 \end_layout
 
 \end_inset
@@ -8961,12 +8947,12 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-Web Browser
+Веб-браузер
 \series default
- allows you to visit and view web pages so you can read news stories, check
- the weather forecast, and all the rest.
- If you have a particular preference for a browser that is not installed
- by default, you can easily add another one as shown in section
+ позволяет вам посещать и просматривать веб-страницы, чтобы вы могли читать
+ новости, проверять прогноз погоды и все остальное.
+ Если вы предпочитаете браузер, который не установлен по умолчанию, то сможете
+ легко добавить другой, как показано в разделе
 \series bold
 
 \begin_inset CommandInset ref
@@ -9033,15 +9019,15 @@ status open
 \begin_layout Plain Layout
 
 \series bold
-Mail Reader
+Mail Reader 
 \series default
- allows you to read and send email.
- You will have to add your email account when you first run the application
- (in a similar way to all mail readers) but once that is set up you should
- be good to go! As with the web browser, there are a range of choices for
- mail reader.
- For example, if you prefer Claws, Sylpheed or Evolution you can install
- it!
+позволяет читать и отправлять электронную почту.
+ При первом запуске приложения вам придется добавить учетную запись электронной
+ почты (как и во всех других программах для чтения почты), но как только
+ она будет настроена, вы можете приступать к работе! Как и в случае с веб-браузе
+ром, существует целый ряд вариантов для чтения почты.
+ Например, если вы предпочитаете Claws, Sylpheed или Evolution, то сможете
+ установить их!
 \end_layout
 
 \end_inset
@@ -9095,20 +9081,19 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The
+
 \series bold
-Package Manager
+Менеджер пакетов
 \series default
- allows you to search for, install, and remove software applications.
- In this example I have searched for the Chromium web browser, and am about
- to install it.
- Once I'm happy with my selections I can click on
+ позволяет искать, устанавливать и удалять программные приложения.
+ В данном примере я нашел веб-браузер Chromium и собираюсь его установить.
+ Как только я буду доволен своим выбором, я могу нажать кнопку 
 \series bold
-Apply
+Применить
 \series default
- to continue.
+, чтобы продолжить.
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -9123,16 +9108,16 @@ protect
 \begin_inset Newline newline
 \end_inset
 
- There are two main software managers in Manjaro :
+ В Manjaro есть два основных менеджера пакетов: 
 \series bold
 Pamac
 \series default
- (installed with the Xfce edition) and
+ (устанавливается в редакции Xfce) и 
 \series bold
 Octopi
 \series default
- (installed with the KDE edition).
- Installation of new software is covered in details in section
+ (устанавливается в редакции KDE).
+ Установка нового программного обеспечения подробно рассматривается в разделе
 \series bold
 
 \begin_inset CommandInset ref
@@ -9194,14 +9179,15 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-There are a variety of ways of getting help and support about Manjaro, as
- well as finding out more about the project.
- You can just browse, or register if you want to get involved!
+Существует множество способов получить помощь и поддержку по Manjaro, а
+ также узнать больше о проекте.
+ Вы можете просто просматривать или зарегистрироваться, если хотите принять
+ участие!
 \end_layout
 
 \begin_layout Standard
-Remember that Manjaro is run by its community.
- Without a community there would be no Manjaro!
+Помните, что Manjaro управляется сообществом.
+ Без сообщества не было бы Manjaro!
 \end_layout
 
 \begin_layout Section
@@ -9228,8 +9214,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The Manjaro Hello screen has links to some excellent resources.
- It's well worth taking the time to have a look at each of them.
+На экране Manjaro Hello есть ссылки на некоторые замечательные ресурсы.
+ Стоит потратить время на ознакомление с каждым из них.
 \end_layout
 
 \end_inset
@@ -9279,7 +9265,7 @@ status collapsed
 
 
 \begin_inset Flex URL
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -9311,10 +9297,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The Manjaro discussion forum is a great place to find out more about the
- project.
- You can connect at any time, leave questions or replies, and come back
- to them later.
+Дискуссионный форум Manjaro - это отличное место, чтобы узнать больше о
+ проекте.
+ Вы можете подключиться в любое время, оставить вопросы или ответы и вернуться
+ к ним позже.
 \end_layout
 
 \end_inset
@@ -9368,8 +9354,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Join @Manjaro on telegram, whether via a web, desktop client or mobile applicati
-on, and you'll find a very nice bunch of people ready to chat!
+Присоединяйтесь к @Manjaro в Telegram, будь то через веб, десктопный клиент
+ или мобильное приложение, и вы найдете очень приятную компанию людей, готовых
+ пообщаться!
 \end_layout
 
 \end_inset
@@ -9383,9 +9370,9 @@ on, and you'll find a very nice bunch of people ready to chat!
 \end_layout
 
 \begin_layout Standard
-Other telegram groups are also available, respectively at @manjarobrasiloficial
- [br], @manjarolinuxes [es], @manjarolinux [ru], @manjaro_it [it], @manjaroID
- [idn] and @manjarozhihu[ch].
+Другие группы Telegram также доступны, соответственно по адресам @manjarobrasilo
+ficial [br], @manjarolinuxes [es], @manjarolinux [ru], @manjaro_it [it],
+ @manjaroID [idn] и @manjarozhihu[ch].
 \end_layout
 
 \begin_layout Standard
@@ -9456,10 +9443,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-If you prefer to use email there are several mailing lists that you can
- use to stay up-to-date with announcements and development, as well as ask
- questions.
- At the moment, though, most people use either the forums or telegram.
+Если вы предпочитаете пользоваться электронной почтой, существует несколько
+ списков рассылки, которые можно использовать, чтобы быть в курсе анонсов
+ и разработок, а также задавать вопросы.
+ Однако в настоящее время большинство людей используют либо форумы, либо
+ Telegram.
 \end_layout
 
 \end_inset
@@ -9534,10 +9522,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The wiki is essentially an online user manual.
- It has a huge range of information, hints, tips, and instructions on getting
- the most out of your Manjaro system.
- If you need to know how to do something, chances are it's on the wiki!
+Wiki - это, по сути, онлайн руководство пользователя.
+ Она содержит огромное количество информации, подсказок, советов и инструкций
+ по получению максимальной отдачи от вашей системы Manjaro.
+ Если вам нужно знать как что-то сделать, скорее всего, это есть в wiki!
 \end_layout
 
 \end_inset
@@ -9602,9 +9590,10 @@ Settings
 \end_layout
 
 \begin_layout Standard
-While the Manjaro desktop comes with a set of defaults that should work
- well for most people, you might want to change things like the desktop
- wallpaper and colour scheme, or perhaps how your laptop touchpad behaves.
+Хотя рабочий стол Manjaro поставляется с набором настроек по умолчанию,
+ которые подходят для большинства людей, вы можете захотеть изменить такие
+ вещи, как обои рабочего стола и цветовую схему, или, возможно, поведение
+ тачпада вашего ноутбука.
 \end_layout
 
 \begin_layout Subsection
@@ -9631,11 +9620,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The Xfce desktop is highly customizable.
- The settings for your user account can be accessed both via the applications
- menu and the Xfce settings manager.
- Either way, there's a lot of tweaking you can do! Don't worry: the changes
- will only affect your user account, not any others you might have added.
+Рабочий стол Xfce очень хорошо настраивается.
+ Настройки учетной записи пользователя доступны как через меню приложений,
+ так и через менеджер настроек Xfce.
+ В любом случае, вы можете многое настроить! Не волнуйтесь: изменения коснутся
+ только вашей учетной записи пользователя, а не других, которые вы могли
+ добавить.
 \end_layout
 
 \end_inset
@@ -9679,19 +9669,19 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The
+
 \series bold
- Manjaro Settings Manager
+Менеджер настроек Manjaro
 \series default
- provides a set of tools for changing lower-level settings, such as those
- you set during installation.
- System-wide languages, keyboard layouts, users, and hardware drivers are
- all taken care of from here.
- It is available under
+ предоставляет набор инструментов для изменения настроек нижнего уровня,
+ например, тех, которые вы задали при установке.
+ Общесистемные языки, раскладки клавиатуры, пользователи и драйверы оборудования
+ - все это можно сделать отсюда.
+ Он доступен в разделе 
 \series bold
-Settings
+Настройки
 \series default
- in the applications menu.
+ в меню приложений.
 \end_layout
 
 \end_inset
@@ -9754,29 +9744,22 @@ setcounter{figure}{0}
 \begin_layout Standard
 
 \emph on
-Note : The windows decorations displayed in the following section may differ
- from the ones currently used.
- It does not affect the methods shown.
+Примечание : Оформление окон, показанные в следующем разделе, могут отличаться
+ от используемых в настоящее время.
+ Это не влияет на показанные методы.
 \end_layout
 
 \begin_layout Standard
-Manjaro comes with excellent printing support.
- Most printers are detected automatically, and many others can be configured
- very easily!
+Manjaro поставляется с отличной поддержкой печати.
+ Большинство принтеров определяются автоматически, а многие другие можно
+ очень легко настроить!
 \end_layout
 
 \begin_layout Standard
-Depending on which edition you are using, you may have to install printing
- support.
- In that case, install the
-\begin_inset Quotes eld
-\end_inset
-
-manjaro-printer
-\begin_inset Quotes erd
-\end_inset
-
- package from Pamac or Octopi (see next section), or from the command line:
+В зависимости от того, какую редакцию вы используете, вам может потребоваться
+ установить поддержку печати.
+ В этом случае установите пакет "manjaro-printer" из Pamac или Octopi (см.
+ следующий раздел), или из командной строки:
 \end_layout
 
 \begin_layout Quote
@@ -9805,12 +9788,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-To check on the available printers, once the package has been installed,
- find and open
+Чтобы проверить доступные принтеры, после установки пакета найдите и откройте
+ 
 \series bold
- Print Settings
+Настройки печати
 \series default
- in the applications menu.
+ в меню приложений.
 \end_layout
 
 \end_inset
@@ -9843,9 +9826,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Adding a printer to the list requires administrator rights.
- Click on the Unlock button at the top-right of the window.
- You will be prompted for the administrator password.
+Для добавления принтера в список требуются права администратора.
+ Нажмите на кнопку 
+\series bold
+Разблокировать
+\series default
+ в правом верхнем углу окна.
+ Вам будет предложено ввести пароль администратора.
 \end_layout
 
 \end_inset
@@ -9878,11 +9865,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Then, click
+Затем нажмите 
 \series bold
- Add
+Добавить
 \series default
- to begin configuring a printer.
+ чтобы начать настройку принтера.
 \end_layout
 
 \end_inset
@@ -9915,10 +9902,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-All detected printers will show in the devices list.
- Select your printer, then click
+Все обнаруженные принтеры появятся в списке устройств.
+ Выберите свой принтер и нажмите 
 \series bold
- Forward
+Вперед
 \series default
 .
 \begin_inset ERT
@@ -9937,10 +9924,10 @@ protect
 \begin_inset Newline newline
 \end_inset
 
- If your printer does not show up it's possible that your printer isn't
- compatible with Manjaro.
- Due to the vast number of printers out there you may need to install drivers
- manually - please visit the forum or IRC channel for help!
+ Если ваш принтер не отображается, возможно, он не совместим с Manjaro.
+ Из-за огромного количества принтеров вам может потребоваться установить
+ драйверы вручную - пожалуйста, обратитесь за помощью на форум или Telegram-кана
+л!
 \end_layout
 
 \end_inset
@@ -9973,7 +9960,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Manjaro will then search for drivers that may be compatible with your printer.
+Затем Manjaro выполнит поиск драйверов, которые могут быть совместимы с
+ вашим принтером.
 \end_layout
 
 \end_inset
@@ -10006,19 +9994,20 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-If no specific driver is found, do not despair! You will be given the opportunit
-y to select one from a list.
- If your printer's manufacturer is not listed, you can choose the
+Если конкретный драйвер не найден, не отчаивайтесь! Вам будет предоставлена
+ возможность выбрать один из списка.
+ Если производитель вашего принтера не указан в списке, вы можете выбрать
+ драйвер 
 \series bold
 Generic
 \series default
- driver.
- This is the one I chose here.
- You also have the option to choose a driver from a file or search once
- again based on your printer model.
- Once you have made your choice, click
+.
+ Именно его я выбрал в данном случае.
+ У вас также есть возможность выбрать драйвер из файла или выполнить поиск
+ по модели вашего принтера.
+ После того как вы сделали свой выбор, нажмите кнопку 
 \series bold
-Forward
+Вперед
 \series default
 .
 \end_layout
@@ -10053,8 +10042,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-You will then have the choice to choose from a driver subcategory to refine
- your choice.
+Затем у вас будет возможность выбрать подкатегорию драйверов, чтобы уточнить
+ свой выбор.
 \end_layout
 
 \end_inset
@@ -10087,9 +10076,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-As Manjaro installs your printer you can change some settings like its name
- and location.
- These provide an easy way of identifying the printer.
+В процессе установки принтера в Manjaro вы можете изменить некоторые настройки,
+ например, его имя и местоположение.
+ Это позволит легко идентифицировать принтер.
 \end_layout
 
 \end_inset
@@ -10122,13 +10111,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-You will then be asked if you want to print a test page before being redirected
- to the properties of your printer.
- The configuration is done! You can click the
+После этого вас спросят, хотите ли вы напечатать тестовую страницу, а затем
+ перенаправят в свойства вашего принтера.
+ Настройка завершена! Вы можете нажать кнопку 
 \series bold
-OK
+ОК
 \series default
- button to close the window.
+, чтобы закрыть окно.
 \end_layout
 
 \end_inset
@@ -10161,17 +10150,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Your printer should now show in
+Теперь ваш принтер должен отображаться в 
 \series bold
- Printer Settings
+Настройках принтера
 \series default
-, where you can view the print queue and change the printer settings.
- To change the settings, you will once again need to click the
+, где вы можете просмотреть очередь печати и изменить настройки принтера.
+ Чтобы изменить настройки, вам снова нужно будет нажать кнопку 
 \series bold
-Unlock
+Разблокировать
 \series default
- button at the top-right of the window.
- Happy printing!
+ в правом верхнем углу окна.
+ Счастливой печати!
 \end_layout
 
 \end_inset
@@ -10222,10 +10211,10 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-After logging in you may notice a couple of pop-ups informing you of software
- updates.
- This is great! It means your internet connection is working correctly,
- and that there is new software ready and waiting for you!
+После входа в систему вы можете заметить несколько всплывающих окон, информирующ
+их вас об обновлении программного обеспечения.
+ Это здорово! Это означает, что ваше интернет-соединение работает правильно
+ и что новое программное обеспечение готово и ждет вас!
 \end_layout
 
 \begin_layout Subsection
@@ -10262,16 +10251,17 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Pamac's Update Manager is available from the system tray at the bottom right
- corner of the screen.
- In this screenshot it has an icon with an exclamation mark, indicating
- there are software updates.
- An update check is performed automatically; all you have to do is click
+Менеджер обновлений Pamac доступен из системного трея в правом нижнем углу
+ экрана.
+ На этом скриншоте он имеет значок с восклицательным знаком, что указывает
+ на наличие обновлений программного обеспечения.
+ Проверка обновлений выполняется автоматически; все, что вам нужно сделать,
+ это нажать кнопку 
 \series bold
- Apply
+Применить
 \series default
- and enter your password when prompted and any updates will proceed automaticall
-y!
+ и ввести пароль, когда появится запрос, и все обновления будут выполнены
+ автоматически!
 \end_layout
 
 \end_inset
@@ -10306,10 +10296,10 @@ Octopi
 \end_layout
 
 \begin_layout Standard
-Octopi is an alternative software manager for Manjaro.
- It is installed with the Openbox and KDE editions as it is based on the
- Qt toolset.
- It also has a very funky icon!
+Octopi - это альтернативный менеджер программного обеспечения для Manjaro.
+ Он устанавливается с редакциями Openbox и KDE, так как основан на наборе
+ инструментов Qt.
+ У него очень забавная иконка!
 \end_layout
 
 \begin_layout Standard
@@ -10332,14 +10322,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Octopi's update notifier is available from the system tray at the bottom
- right corner of the screen.
- In this screenshot it has a red icon, indicating there are software updates.
- An update check is performed automatically; all you have to do is click
+Уведомитель обновлений Octopi доступен из системного трея в правом нижнем
+ углу экрана.
+ На этом снимке экрана он имеет красный значок, указывающий на наличие обновлени
+й программного обеспечения.
+ Проверка обновлений выполняется автоматически; все, что вам нужно сделать
+ - это нажать 
 \series bold
- Yes
+Да
 \series default
- and any updates will proceed automatically!
+ и все обновления будут выполнены автоматически!
 \end_layout
 
 \end_inset
@@ -10372,14 +10364,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Alternatively, you can load Octopi's full interface.
- The number at the bottom shows how many updates there are.
- To show what is available, click on the button with the red icon and the
- number of updates.
- To install the updates, click on the arrow next to the button and then
- click on
+В качестве альтернативы можно загрузить полный интерфейс Octopi.
+ Число внизу показывает количество обновлений.
+ Чтобы показать, какие обновления доступны - нажмите на кнопку с красным
+ значком и количеством обновлений.
+ Чтобы установить обновления, нажмите на стрелку рядом с кнопкой, а затем
+ нажмите на кнопку 
 \series bold
- Install
+Установить
 \series default
 .
 \end_layout
@@ -10406,21 +10398,21 @@ Alternatively, you can load Octopi's full interface.
 \end_layout
 
 \begin_layout Standard
-Once your software is up-to-date, you may want to check if all necessary
- language packages are installed.
- For that, head over to the
+После обновления программного обеспечения вы можете проверить, установлены
+ ли все необходимые языковые пакеты.
+ Для этого перейдите в 
 \series bold
-Manjaro Settings Manager
+Менеджер настроек Manjaro
 \series default
 .
- They can also be installed like regular packages (see section
+ Они также могут быть установлены как обычные пакеты (смотри раздел
 \begin_inset CommandInset ref
 LatexCommand nameref
 reference "install_software"
 
 \end_inset
 
-), but this method takes care of them all in one fell swoop.
+), но этот метод позволяет установить их все одним махом.
 \end_layout
 
 \begin_layout Standard
@@ -10443,13 +10435,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-In the
+В 
 \series bold
-Manjaro Settings Manager
+Менеджере настроек Manjaro
 \series default
-, double-click on
+ дважды щелкните на 
 \series bold
-Language Packages
+Языковые пакеты
 \series default
 .
 \end_layout
@@ -10484,14 +10476,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Available language packages will be listed here.
- If there are any, click on the
+Здесь будут перечислены доступные языковые пакеты.
+ Если таковые имеются, нажмите на кнопку 
 \series bold
-Install Packages
+Установить пакеты
 \series default
- button to install them.
- You will be prompted for your password before proceeding to the installation.
- In the example shown here, none are available.
+ для их установки.
+ Перед началом установки вам будет предложено ввести пароль.
+ В примере, показанном здесь, ни один из них не доступен.
 \end_layout
 
 \end_inset
@@ -10555,23 +10547,24 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-There's a huge amount of software freely available in the Manjaro repositories.
+В репозиториях Manjaro находится огромное количество свободно распространяемого
+ программного обеспечения.
 \begin_inset Foot
-status collapsed
+status open
 
 \begin_layout Plain Layout
-Be careful before enabling the AUR.
- It is a community-maintained repository of software so presents potential
- risks and problems.
- Make sure you are familiar with the build process.
+Будьте осторожны перед включением AUR.
+ Это хранилище программного обеспечения, поддерживаемое сообществом, поэтому
+ оно несет в себе потенциальные риски и проблемы.
+ Убедитесь, что вы знакомы с процессом сборки.
 \end_layout
 
 \end_inset
 
- If you are connected to the internet you can download and install as many
- of this as you want at no cost! No advertising is embedded, no data gathering
- performed - you get just the software application, unlike with some other
- operating systems.
+ Если вы подключены к Интернету, то сможете бесплатно скачать и установить
+ столько, сколько захотите! Никакой рекламы, никакого сбора данных - вы
+ получаете только программное приложение, в отличие от некоторых других
+ операционных систем.
 \end_layout
 
 \begin_layout Subsection
@@ -10598,13 +10591,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Pamac is a piece of software that allows you to install software on your
- computer.
- You can find it under the name
+Pamac - это программа, позволяющая устанавливать программное обеспечение
+ на компьютер.
+ Вы можете найти его под названием 
 \series bold
 Add/Remove Software
 \series default
- in the application menu.
+ в меню приложений.
 \end_layout
 
 \end_inset
@@ -10637,10 +10630,11 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Pamac allows easy access to the available software.
- All software applications in the repositories are free; no need to worry
- about purchase or licensing costs.
- To search for a package, simply start typing or use the tabs to the left!
+Pamac обеспечивает легкий доступ к имеющемуся программному обеспечению.
+ Все программы в репозиториях бесплатны; нет необходимости беспокоиться
+ о расходах на покупку или лицензирование.
+ Для поиска пакета просто начните вводить текст или воспользуйтесь вкладками
+ слева!
 \end_layout
 
 \end_inset
@@ -10673,13 +10667,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-To obtain more information on a package, click on it for
+Чтобы получить дополнительную информацию о пакете, нажмите на него для 
 \series bold
-Details
+Подробнее
 \series default
 .
- This will give you a description of the package, a link to the official
- website of the package, a list of dependencies and much more.
+ Это даст вам описание пакета, ссылку на официальный сайт пакета, список
+ зависимостей и многое другое.
 \end_layout
 
 \end_inset
@@ -10712,15 +10706,15 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Once you've found the package you want to install, click
+Найдя пакет, который вы хотите установить, нажмите кнопку 
 \series bold
- Install
+Установить
 \series default
-, then click on the
+, затем кнопку 
 \series bold
-Apply
+Применить
 \series default
- button that will appear at the bottom of the window to confirm.
+, которая появится в нижней части окна для подтверждения.
 \end_layout
 
 \end_inset
@@ -10753,16 +10747,16 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The packages to be installed are listed so you can check if this is what
- you want to do.
- If additional packages are needed by the one or those you want to install,
- they will also be listed here.
- They are called dependencies.
- When you are happy with the selection, click
+Пакеты, которые будут установлены, перечислены, чтобы вы могли проверить,
+ нет ли какой ошибки.
+ Если дополнительные пакеты необходимы тем или иным пакетам, которые вы
+ хотите установить, они также будут перечислены здесь.
+ Такие пакеты называются зависимостями.
+ Когда вы будете удовлетворены выбором, нажмите 
 \series bold
- Apply
+Применить
 \series default
- and the software will be downloaded and installed.
+, и программное обеспечение будет загружено и установлено.
 \end_layout
 
 \end_inset
@@ -10795,14 +10789,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-To stop other users from removing important software from the system you
- will have to provide an administrator password.
- If you kept the default settings when creating a user during the installation,
- your own password will work.
- If you don't know it, you can't go any further.
- There are methods to reset this password if needed; visit the forum or
- IRC channel to find out more.
- Enter your password and click
+Чтобы другие пользователи не смогли удалить важное программное обеспечение
+ из системы, необходимо указать пароль администратора.
+ Если при создании пользователя во время установки вы сохранили настройки
+ по умолчанию, подойдет ваш собственный пароль.
+ Если вы его не знаете, то не сможете проследовать дальше.
+ Существуют методы сброса этого пароля при необходимости; посетите форум
+ илиTelegram-канал, чтобы узнать больше.
+ Введите свой пароль и нажмите 
 \series bold
 Authenticate
 \series default
@@ -10839,8 +10833,8 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The software packages will be downloaded and installed.
- You don't have to do anything else!
+Программные пакеты будут загружены и установлены.
+ Вам больше ничего не нужно делать!
 \end_layout
 
 \end_inset
@@ -10873,9 +10867,9 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The new software will show as installed within Pamac and is available in
- the application menu ready for you to use.
- You can close Pamac now if you want.
+Новое программное обеспечение будет отображаться как установленное в Pamac
+ и будет доступно в меню приложений как готовое к использованию.
+ Теперь вы можете закрыть Pamac.
 \end_layout
 
 \end_inset
@@ -10902,14 +10896,14 @@ Octopi
 \begin_layout Standard
 
 \emph on
-Note : The windows decorations displayed in the following subsection may
- differ from the ones currently used.
- It does not affect the methods shown.
+Примечание : Оформление окон, показанное в следующем подразделе, может отличатьс
+я от используемого в настоящее время.
+ Это не влияет на показанные методы.
 \end_layout
 
 \begin_layout Standard
-The process of installing new software using Octopi is very similar to the
- one using Pamac.
+Процесс установки нового программного обеспечения с помощью Octopi очень
+ похож на процесс установки с помощью Pamac.
 \end_layout
 
 \begin_layout Standard
@@ -10932,12 +10926,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Octopi allows easy access to the available software.
- Do note that the search process is slightly different to Pamac as you can
- select whether to search by package name or package description.
- Once you've found the package you want to install, right-click and select
+Octopi обеспечивает легкий доступ к доступному программному обеспечению.
+ Обратите внимание, что процесс поиска немного отличается от Pamac, поскольку
+ вы можете выбрать поиск по имени пакета или по его описанию.
+ Найдя пакет, который хотите установить, щелкните правой кнопкой мыши и
+ выберите 
 \series bold
- Install
+Установить
 \series default
 .
 \end_layout
@@ -10972,18 +10967,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Some software will have other packages it can optionally use if they are
- installed.
- These
-\begin_inset Quotes eld
-\end_inset
-
-optional dependencies
-\begin_inset Quotes erd
-\end_inset
-
- can be selected here or ignored - you can always install them later if
- you want to!
+Некоторые программы имеют другие пакеты, которые они могут использовать
+ по требованию, если конечно они установлены.
+ Эти "необязательные зависимости" можно выбрать здесь или проигнорировать
+ - вы всегда сможете установить их позже, если захотите!
 \end_layout
 
 \end_inset
@@ -11016,13 +11003,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-A summary of the transactions is displayed at the bottom of the window.
- Once you are ready to apply them, click on the checkmark at the top-left
- of the window to
+В нижней части окна отображается сводка транзакций.
+ Когда вы будете готовы применить их, нажмите на галочку в левом верхнем
+ углу окна, чтобы 
 \series bold
-Commit
+выполнить (Commit)
 \series default
- them.
+ их.
 \end_layout
 
 \end_inset
@@ -11055,14 +11042,14 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-The packages to be installed are listed so you can check if this is what
- you want to do.
- When you are happy with the selection, click
+Пакеты, которые будут установлены, перечислены для проверки - нет ли какой
+ ошибки.
+ Если вы согласны с выбором - нажмите 
 \series bold
- Yes
+Да
 \series default
-, type in the root (administrator) password when prompted and the software
- will be downloaded and installed.
+, введите пароль root (администратора), когда появится запрос, и программное
+ обеспечение будет загружено и установлено.
 \end_layout
 
 \end_inset
@@ -11095,9 +11082,10 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-Octopi will show a confirmation that it installed the new software.
- You can close Octopi now if you want.
- The new software is now ready to use!
+Octopi отобразит подтверждение того, что он установил новое программное
+ обеспечение.
+ Если хотите - можете закрыть Octopi.
+ Теперь новое программное обеспечение готово к использованию!
 \end_layout
 
 \end_inset
@@ -11148,18 +11136,19 @@ setcounter{figure}{0}
 \end_layout
 
 \begin_layout Standard
-Pacman is the Arch Linux
+Pacman - это 
 \series bold
- pac
+pac
 \series default
 kage
 \series bold
 man
 \series default
-ager.
- This underpins Pamac and Octopi but doesn't have a graphical interface.
- Instead, it is used by typing commands on the terminal.
- The commands allow you to install, upgrade, configure, and remove software.
+ager (пакетный менеджер) Arch Linux.
+ Он лежит в основе Pamac и Octopi, но не имеет графического интерфейса.
+ Вместо этого он используется путем ввода команд на терминале.
+ Команды позволяют устанавливать, обновлять, настраивать и удалять программное
+ обеспечение.
 \end_layout
 
 \begin_layout Subsection
@@ -11167,11 +11156,10 @@ ager.
 \end_layout
 
 \begin_layout Standard
-As new packages are added to the repositories you will need to regularly
- synchronise the package lists.
- This is normally taken care of automatically on a regular basis by the
- software managers, but to perform this manually type the following into
- the terminal:
+По мере добавления новых пакетов в репозитории вам потребуется регулярно
+ синхронизировать списки пакетов.
+ Обычно об этом автоматически заботятся менеджеры программного обеспечения,
+ но чтобы выполнить это вручную, введите в терминале следующее:
 \end_layout
 
 \begin_layout Quote
@@ -11181,9 +11169,10 @@ sudo pacman -Sy
 \end_layout
 
 \begin_layout Standard
-This will only download the package lists if there has been a change.
- Occasionally you may want to force the package lists to be downloaded.
- To do this, type:
+Это позволит загрузить списки пакетов только в том случае, если в них произошли
+ изменения.
+ Иногда вы можете захотеть принудительно загрузить списки пакетов.
+ Для этого введите:
 \end_layout
 
 \begin_layout Quote
@@ -11197,8 +11186,8 @@ sudo pacman -Syy
 \end_layout
 
 \begin_layout Standard
-Pacman will allow you to perform an update of software already installed
- with the command:
+Pacman позволит вам выполнить обновление уже установленного программного
+ обеспечения с помощью команды:
 \end_layout
 
 \begin_layout Quote
@@ -11208,9 +11197,8 @@ sudo pacman -Su
 \end_layout
 
 \begin_layout Standard
-It's a good idea to check whether the package lists are up-to-date at the
- same time.
- To do so, type:
+Нелишним будет одновременно проверить, обновлены ли списки пакетов.
+ Для этого введите:
 \end_layout
 
 \begin_layout Quote
@@ -11220,8 +11208,8 @@ sudo pacman -Syu
 \end_layout
 
 \begin_layout Standard
-You can also force a package list synchronisation before performing an update
- with:
+Вы также можете принудительно синхронизировать список пакетов перед выполнением
+ обновления:
 \begin_inset Float figure
 wide false
 sideways false
@@ -11264,8 +11252,8 @@ sudo pacman -Syyu
 \end_layout
 
 \begin_layout Standard
-Finding a package by name is really straightforward.
- For example, to search for a text editor called Leafpad, type:
+Найти пакет по имени очень просто.
+ Например, чтобы найти текстовый редактор под названием Leafpad, введите:
 \end_layout
 
 \begin_layout Quote
@@ -11279,8 +11267,8 @@ sudo pacman -Ss leafpad
 \end_layout
 
 \begin_layout Standard
-Installing a package is equally straightforward.
- For example, to install Leafpad, type:
+Установка пакета также проста.
+ Например, чтобы установить Leafpad, введите:
 \begin_inset Flex Marginnote
 status collapsed
 
@@ -11305,9 +11293,9 @@ sudo pacman -S leafpad
 \end_layout
 
 \begin_layout Standard
-To remove a software package you need to know its name, but the command
- is straightforward.
- To remove Leafpad, type:
+Чтобы удалить пакет программ, необходимо знать его название, но команда
+ простая.
+ Чтобы удалить Leafpad, введите:
 \end_layout
 
 \begin_layout Quote
@@ -11317,16 +11305,15 @@ sudo pacman -R leafpad
 \end_layout
 
 \begin_layout Standard
-It's also possible to remove a package and any dependencies it required
- when it was installed.
- Assuming those other packages are not being used by another piece of software,
- they will become
+Также можно удалить пакет и все зависимости, которые потребовались при его
+ установке.
+ Если эти пакеты не используются другими программами, они станут 
 \series bold
- orphan
+сиротскими
 \series default
- packages.
- These serve no function other than taking up space! To remove a software
- package with its dependencies, type:
+ пакетами.
+ Они не выполняют никакой функции, кроме как занимают место! Чтобы удалить
+ пакет программного обеспечения вместе с его зависимостями, введите:
 \end_layout
 
 \begin_layout Quote
@@ -11336,11 +11323,11 @@ sudo pacman -Rs leafpad
 \end_layout
 
 \begin_layout Standard
-A package may also create configuration files.
- Normally these are left in place so your configuration is not lost, and
- can be reused if you install the package again.
- However, if you want to remove these configuration files too, the command
- is:
+Пакет может также создавать файлы конфигурации.
+ Обычно они остаются на месте, чтобы ваша конфигурация не была потеряна,
+ и могут быть использованы повторно, если вы установите пакет снова.
+ Однако если вы хотите удалить и эти файлы конфигурации, выполните следующую
+ команду:
 \end_layout
 
 \begin_layout Quote
@@ -11350,9 +11337,9 @@ sudo pacman -Rns leafpad
 \end_layout
 
 \begin_layout Standard
-If at a later date you want to remove all orphan packages and configuration
- files for packages that you removed some time ago, the following command
- will do it:
+Если позже вы захотите удалить все сиротские пакеты и конфигурационные файлы
+ пакетов, которые вы удалили некоторое время назад, это можно сделать следующей
+ командой:
 \end_layout
 
 \begin_layout Quote
@@ -11362,7 +11349,7 @@ sudo pacman -Rns $(pacman -Qtdq)
 \end_layout
 
 \begin_layout Standard
-Be warned, though: this is an advanced command!
+Однако будьте внимательны: это продвинутая команда!
 \end_layout
 
 \begin_layout Subsection
@@ -11370,11 +11357,11 @@ Be warned, though: this is an advanced command!
 \end_layout
 
 \begin_layout Standard
-It's a good idea to become familiar with the Pacman commands.
- It can be a very useful tool in case the other software managers refuse
- to complete an installation, for example if an installation process is
- interrupted.
- The Pacman man
+Нелишним будет ознакомиться с командами Pacman.
+ Он может оказаться очень полезным инструментом в случае, если другие менеджеры
+ программ отказываются завершить установку, например, если процесс установки
+ прерван.
+ Pacman manpage
 \begin_inset Flex Marginnote
 status collapsed
 
@@ -11383,7 +11370,7 @@ status collapsed
 \series bold
 man
 \series default
- is short for
+ это сокращение от
 \series bold
  man
 \series default
@@ -11392,7 +11379,7 @@ ual
 
 \end_inset
 
-page is very informational and can be viewed with the command:
+очень информативен и может быть просмотрен с помощью команды:
 \end_layout
 
 \begin_layout Quote
@@ -11402,7 +11389,7 @@ man pacman
 \end_layout
 
 \begin_layout Standard
-To exit, press
+Для выхода оттуда - нажмите
 \family typewriter
 \series bold
  q
@@ -11426,25 +11413,26 @@ Mirror
 \end_layout
 
 \begin_layout Standard
-Manjaro Linux packages are hosted on a number of servers across the world;
- these servers
+Пакеты Manjaro Linux размещаются на нескольких серверах по всему миру; эти
+ серверы являются 
 \series bold
- mirror
+зеркалами
 \series default
- the official Manjaro software repository.
- When you first install Manjaro it will try to work out which server is
- closest to you so that software downloads complete as quickly as possible.
+ официального репозитория программного обеспечения Manjaro.
+ Когда вы впервые устанавливаете Manjaro, он попытается определить, какой
+ сервер находится ближе всего к вам, чтобы загрузка программного обеспечения
+ прошла как можно быстрее.
 \end_layout
 
 \begin_layout Standard
-Sometimes, though, the list of mirrors can get old.
- New mirrors can become available, and some mirrors are removed.
- Updates to Manjaro will regularly trigger an update of the mirror list,
- but sometimes it's useful to do this manually.
+Иногда, однако, список зеркал может устареть.
+ Могут появляться новые зеркала, а некоторые зеркала удаляются.
+ Обновления Manjaro регулярно вызывают обновление списка зеркал, но иногда
+ полезно делать это вручную.
 \end_layout
 
 \begin_layout Standard
-To update the mirror list use the following command:
+Чтобы обновить список зеркал, выполните следующую команду:
 \begin_inset Float figure
 wide false
 sideways false
@@ -11493,10 +11481,10 @@ Pacman-mirrors
 \end_layout
 
 \begin_layout Standard
-This will test the speed of all currently available mirrors and set your
- machine to use the best for you.
- Once this command has completed, you should force a download of the package
- lists with the command:
+Это позволит протестировать скорость всех доступных на данный момент зеркал
+ и настроить машину на использование лучшего из них.
+ После выполнения этой команды следует принудительно загрузить списки пакетов
+ с помощью команды:
 \end_layout
 
 \begin_layout Quote
@@ -11510,7 +11498,8 @@ sudo pacman -Syyu
 \end_layout
 
 \begin_layout Standard
-If you would like more control over which mirrors to use, run the command:
+Если вы хотите получить больше контроля над тем, какие зеркала использовать,
+ выполните команду:
 \begin_inset Float figure
 wide false
 sideways false
@@ -11549,16 +11538,16 @@ sudo pacman-mirrors -i
 \end_layout
 
 \begin_layout Standard
-This will allow you to select which mirror, or mirrors, to try when checking
- for software updates and downloading new packages.
- It's normally best to choose mirrors that are geographically close to you,
- so if you're in Canada then servers from Canada and the US are generally
- a good bet.
- Of course, you're free to choose whichever you want!
+Это позволит вам выбрать зеркало или зеркала для проверки обновлений программног
+о обеспечения и загрузки новых пакетов.
+ Обычно лучше выбирать зеркала, находящиеся географически ближе к вам, так
+ что если вы находитесь в Канаде, то серверы из Канады и США, как правило,
+ являются хорошим выбором.
+ Конечно, вы можете выбрать любое из них!
 \end_layout
 
 \begin_layout Standard
-To reset back to an automatic choice, run this command:
+Чтобы вернуться к автоматическому выбору, выполните эту команду:
 \end_layout
 
 \begin_layout Quote
@@ -11568,7 +11557,8 @@ sudo pacman-mirrors -f
 \end_layout
 
 \begin_layout Standard
-Remember to force a download of the package lists to use the new mirrors!
+Не забудьте принудительно загрузить списки пакетов, чтобы использовать новые
+ зеркала!
 \end_layout
 
 \begin_layout Subsection
@@ -11576,9 +11566,10 @@ Remember to force a download of the package lists to use the new mirrors!
 \end_layout
 
 \begin_layout Standard
-Mirrors can also be refreshed from within Pamac.
- There you can select the country from which to choose the mirrors.
- Choosing your country or one close to yours is generally a good idea.
+Зеркала также можно обновить в Pamac.
+ Там вы можете выбрать страну, из которой будут выбраны зеркала.
+ Выбор своей страны или страны, близкой к вашей, обычно является хорошей
+ идеей.
 \end_layout
 
 \begin_layout Standard
@@ -11601,12 +11592,13 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-From Pamac, click the dots menu at the top right of the window and select
+В Pamac нажмите на меню с точками в правом верхнем углу окна и выберите
+ 
 \series bold
 Preferences
 \series default
 .
- You will be prompted for your password.
+ Вам будет предложено ввести пароль.
 \end_layout
 
 \end_inset
@@ -11639,13 +11631,12 @@ status open
 \begin_inset Caption Standard
 
 \begin_layout Plain Layout
-In the window that pops up, go to the
+В появившемся окне перейдите на вкладку 
 \series bold
-Official Repositories
+Официальные репозитории
 \series default
- tab.
- There, you will be able to choose the location of the mirrors and refresh
- them.
+.
+ Там вы сможете выбрать расположение зеркал и обновить их.
 \end_layout
 
 \end_inset
@@ -11668,7 +11659,7 @@ Official Repositories
 \begin_layout Subsection
 Переключение ветвей
 \begin_inset Index idx
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Switching branches
@@ -11678,7 +11669,7 @@ Switching branches
 
 
 \begin_inset Index idx
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Branches
@@ -11690,12 +11681,13 @@ Branches
 \end_layout
 
 \begin_layout Standard
-When you install Manjaro, unless you specifically installed a preview version,
- you will be using the stable branch.
- This set of packages has the most testing and so is the best for most users.
- However, you may want to help test packages before they move to the stable
- repository.
- To do this, you can switch to the testing branch with the command:
+Когда вы устанавливаете Manjaro, если вы специально не установили предварительну
+ю версию, вы будете использовать стабильную ветку.
+ Этот набор пакетов прошел наибольшее тестирование и поэтому является оптимальны
+м для большинства пользователей.
+ Однако вы можете захотеть помочь протестировать пакеты до того, как они
+ перейдут в стабильный репозиторий.
+ Для этого вы можете переключиться на тестовую ветку с помощью команды:
 \end_layout
 
 \begin_layout Quote
@@ -11705,19 +11697,19 @@ sudo pacman-mirrors -f -a -B testing
 \end_layout
 
 \begin_layout Standard
-The testing repository has packages that have been checked by the Manjaro
- development team to make sure they work correctly.
- However, the amount of testing done is much smaller than for the stable
- branch - but this is how they get tested!
+Тестовый репозиторий содержит пакеты, которые были проверены командой разработчи
+ков Manjaro, чтобы убедиться, что они работают правильно.
+ Однако объем тестового репозитория намного меньше, чем для стабильной ветки
+ - но именно так они и тестируются!
 \end_layout
 
 \begin_layout Standard
-If you want to live on the bleeding edge, you can switch to the unstable
- branch.
- This is normally used by the Manjaro developers.
- Packages from the unstable branch can cause problems, so this is not something
- to do lightly.
- If you ever decide to try it out, the command is:
+Если вы хотите жить на самом современном уровне, то можете перейти на нестабильн
+ую ветку.
+ Она обычно используется разработчиками Manjaro.
+ Пакеты из нестабильной ветки могут вызывать проблемы, поэтому не стоит
+ относиться к этому легкомысленно.
+ Если вы решите попробовать, команда такова:
 \end_layout
 
 \begin_layout Quote
@@ -11727,8 +11719,8 @@ sudo pacman-mirrors -f -a -B unstable
 \end_layout
 
 \begin_layout Standard
-After switching branches you will need to force an update of the package
- lists and packages, which can be done with the command:
+После переключения ветки вам нужно будет принудительно обновить списки пакетов
+ и пакеты, что можно сделать с помощью команды:
 \end_layout
 
 \begin_layout Quote
@@ -11738,10 +11730,10 @@ sudo pacman -Syyu
 \end_layout
 
 \begin_layout Standard
-If you switch away from the stable branch, but want to move back, it's actually
- pretty easy.
- You can switch back to the stable branch in the same way you left it, with
- the command:
+Если вы перешли со стабильной ветки, но хотите вернуться обратно, это довольно
+ просто.
+ Вы можете вернуться в стабильную ветку так же, как и покинули её, с помощью
+ команды::
 \end_layout
 
 \begin_layout Quote
@@ -11751,10 +11743,10 @@ sudo pacman-mirrors -f -a -B stable
 \end_layout
 
 \begin_layout Standard
-This will leave the newer packages on your system and these will be replaced
- as the stable branch catches up.
- However, if you want to force a downgrade of packages back to the stable
- version, use:
+Это оставит более новые пакеты в вашей системе и они будут заменены, когда
+ стабильная ветка догонит их.
+ Однако если вы хотите принудительно обновить пакеты до стабильной версии,
+ используйте:
 \end_layout
 
 \begin_layout Quote
@@ -11778,15 +11770,15 @@ Fixing installation errors
 \end_layout
 
 \begin_layout Standard
-Occasionally, an installation can go wrong.
- The downloaded file might be corrupted, or the process might be interrupted
- if you lose power.
- Most of the time it's relatively easy to get your system back to a working
- state!
+Иногда установка может пойти не по плану.
+ Загруженный файл может быть поврежден или процесс может быть прерван при
+ отключении питания.
+ В большинстве случаев вернуть систему в рабочее состояние довольно просто!
 \end_layout
 
 \begin_layout Standard
-The most common error you will be something like:
+Наиболее распространенная ошибка, которую вы получите, будет выглядеть следующим
+ образом:
 \end_layout
 
 \begin_layout Quote
@@ -11920,12 +11912,12 @@ you can remove /var/lib/pacman/db.lck
 \end_layout
 
 \begin_layout Standard
-This means Pacman thinks it is already running.
- If it is, and you try to force an installation or removal of software,
- the package database can be left in an inconsistent state.
- This would be bad.
- So, the first thing to check is whether an installer is running.
- One of the easiest ways to check is to run a terminal command:
+Это означает, что Pacman думает, что он уже запущен.
+ Если это так, и вы попытаетесь принудительно установить или удалить программу,
+ база данных пакетов может оказаться в противоречивом состоянии.
+ Это плохо.
+ Итак, первое, что нужно проверить, это запущена ли программа установки.
+ Один из самых простых способов проверки - выполнить команду терминала:
 \end_layout
 
 \begin_layout Quote
@@ -11935,9 +11927,9 @@ ps x | grep pacman
 \end_layout
 
 \begin_layout Standard
-This might look complicated, but it's just two small commands joined (piped)
- together.
- First,
+Это может показаться сложным, но это всего лишь две небольшие команды, соединенн
+ые (пайпом) вместе.
+ Первая,
 \end_layout
 
 \begin_layout Quote
@@ -11947,8 +11939,8 @@ ps x
 \end_layout
 
 \begin_layout Standard
-produces a list of running processes for all users.
- Second,
+выдает список запущенных процессов для всех пользователей.
+ Вторая,
 \end_layout
 
 \begin_layout Quote
@@ -11958,25 +11950,10 @@ grep pacman
 \end_layout
 
 \begin_layout Standard
-searches for the text
-\begin_inset Quotes eld
-\end_inset
-
-pacman
-\begin_inset Quotes erd
-\end_inset
-
-.
- The pipe, |, takes the output from the first and feeds it to the second.
- To check whether another program is running you can just change the text
-\begin_inset Quotes eld
-\end_inset
-
-pacman
-\begin_inset Quotes erd
-\end_inset
-
- to something else:
+ищет текст "pacman".
+ Пайп | берет вывод из первой и передает его во вторую.
+ Чтобы проверить, запущена ли другая программа, можно просто заменить текст
+ "pacman" на что-то другое:
 \end_layout
 
 \begin_layout Quote
@@ -11992,8 +11969,8 @@ ps x | grep octopi
 \end_layout
 
 \begin_layout Standard
-Once you are sure an installer is not running, you can delete Pacman's lock
- file with the command:
+Когда вы убедитесь, что программа установки не запущена, вы можете удалить
+ файл блокировки Pacman с помощью команды:
 \end_layout
 
 \begin_layout Quote
@@ -12003,12 +11980,12 @@ sudo rm /var/lib/pacman/db.lck
 \end_layout
 
 \begin_layout Standard
-Then try running the install process again!
+Затем попробуйте запустить процесс установки снова!
 \end_layout
 
 \begin_layout Standard
-If a problem persists, there is a series of commands that will fix most
- issues:
+Если проблема сохраняется, существует ряд команд, которые устранят большинство
+ проблем:
 \end_layout
 
 \begin_layout Quote
@@ -12054,24 +12031,24 @@ sudo pacman -Suu
 \end_layout
 
 \begin_layout Standard
-In order, these commands:
+Выполните эти команды по порядку:
 \end_layout
 
 \begin_layout Itemize
-Remove Pacman's lock file;
+Удалите файл блокировки Pacman;
 \end_layout
 
 \begin_layout Itemize
-Update the mirror list;
+Обновите список зеркал;
 \end_layout
 
 \begin_layout Itemize
-Forces an update of the package lists and an update of any packages to bring
- them in line with the current repository state;
+Принудительно обновите списков пакетов и обновите все пакеты для приведения
+ их в соответствие с текущим состоянием репозитория;
 \end_layout
 
 \begin_layout Itemize
-Ensures no packages are left out of line with the current repository state.
+Убедитесь, что ни один пакет не вышел за пределы текущего состояния репозитория.
 \end_layout
 
 \begin_layout Section
@@ -12079,7 +12056,7 @@ Ensures no packages are left out of line with the current repository state.
 \end_layout
 
 \begin_layout Standard
-Remember - there is plenty of information on the wiki
+Помните - на wiki
 \begin_inset Flex URL
 status collapsed
 
@@ -12090,7 +12067,7 @@ https://wiki.manjaro.org/
 
 \end_inset
 
- and discussion forum
+ и форуме
 \begin_inset Flex URL
 status collapsed
 
@@ -12101,8 +12078,8 @@ https://forum.manjaro.org/
 
 \end_inset
 
-.
- Do not hesitate to use them!
+ есть много полезной информации.
+ Не стесняйтесь использовать её!
 \end_layout
 
 \begin_layout Standard
@@ -12115,7 +12092,7 @@ https://forum.manjaro.org/
 \begin_layout Standard
 \start_of_appendix
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
@@ -12152,7 +12129,7 @@ type "idx"
 
 
 \begin_inset ERT
-status collapsed
+status open
 
 \begin_layout Plain Layout
 
